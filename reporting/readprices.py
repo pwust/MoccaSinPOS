@@ -58,11 +58,11 @@ class Prices():
     products_filename=os.path.join(ConfigPath, 'product.ini')
     ausnahme_filename=os.path.join(ConfigPath, 'ausnahme.ini')
 
-    product_prices = {}
-    product_names = {}
-    product_labels = {}
-    product_raw = []
-    exception_raw = []
+    # product_prices = {}
+    # product_names = {}
+    # product_labels = {}
+    # product_raw = []
+    # exception_raw = []
 
     def __init__(self):
         self.product_prices = {}
@@ -70,6 +70,7 @@ class Prices():
         self.product_labels = {}
         self.product_raw = []
         self.exception_raw = []
+        self.exception_prices = {}
 
 
     def ReadProductsFromFile(self, productsfilename='product.ini', exceptionsfilename='ausnahme.ini'):
@@ -86,9 +87,9 @@ class Prices():
         label_lines_count = 0
         double_lines_count = 0
 
-        global product_prices
-        global product_names
-        global product_labels
+        # global product_prices
+        # global product_names
+        # global product_labels
 
         with open(productsfilename, 'r') as file:
             for line in file:
@@ -97,6 +98,7 @@ class Prices():
                 if not (re.match('^(\s*|\s*@+.*)$',line)):
                     # ignoring empty lines and commented lines
                     good_lines_count += 1
+                    self.product_raw.append(line)
                     if line.split(',')[0] == 'PREIS':
                         if line.split(',')[1] in self.product_prices:
                             print()
@@ -118,6 +120,7 @@ class Prices():
                         if __name__ == '__main__':
                             print('l', end='')
                         label_lines_count += 1
+                pass
             if __name__ == '__main__':
                 print()
                 print()
@@ -125,12 +128,41 @@ class Prices():
                       (all_lines_count, good_lines_count, price_lines_count, name_lines_count, label_lines_count, double_lines_count))
                 #print('Object lengths: %s prices, %s groups, %s labels.' % (len(product_prices), len(product_names), len(product_labels)))
 
+        all_lines_count = 0
+        good_lines_count = 0
+        price_lines_count = 0
+        double_lines_count = 0
 
         with open(exceptionsfilename, 'r') as file:
-            pass
+            for line in file:
+                line = line.rstrip("\r\n\t ")
+                all_lines_count += 1
+                if not (re.match('^(\s*|\s*@+.*)$',line)):
+                    # ignoring empty lines and commented lines
+                    good_lines_count += 1
+                    self.exception_raw.append(line)
+                    if line.split(',')[0] == 'PREIS':
+                        if line.split(',')[1] in self.exception_prices:
+                            print()
+                            print('Key %s already stored! (existing: %s, not-stored: %s)' %
+                                  (line.split(',')[1],self.exception_prices[line.split(',')[1]],line.split(',')[2]))
+                            double_lines_count += 1
+                        else:
+                            self.exception_prices[line.split(',')[1]] = line.split(',')[2]
+                            if __name__ == '__main__':
+                                print('p', end='')
+                            price_lines_count += 1
+                pass
+            if __name__ == '__main__':
+                print()
+                print()
+                print('Number of lines: %s (%s good ones, %s prices, %s double).' %
+                      (all_lines_count, good_lines_count, price_lines_count, double_lines_count))
+                #print('Object lengths: %s prices, %s groups, %s labels.' % (len(product_prices), len(product_names), len(product_labels)))
 
 def main():
-    Prices.ReadProductsFromFile(os.path.abspath(os.path.join('..', 'old-moc-data', 'umsatz', 'product.ini')),
+    alles = Prices()
+    alles.ReadProductsFromFile(os.path.abspath(os.path.join('..', 'old-moc-data', 'umsatz', 'product.ini')),
                                 os.path.abspath(os.path.join('..', 'old-moc-data', 'umsatz', 'ausnahme.ini')))
     #print(Prices.product_prices)
 
