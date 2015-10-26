@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MoccaSinPOS.iml" filepath="$PROJECT_DIR$/.idea/MoccaSinPOS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/learning/headfirst-python/kapitel2/.idea/kapitel2.iml" filepath="$PROJECT_DIR$/learning/headfirst-python/kapitel2/.idea/kapitel2.iml" />
     </modules>
   </component>
 </project>
