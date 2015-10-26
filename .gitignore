@@ -1,3 +1,13 @@
+# Umsatzdaten der alten Kasse
+old-moc-data/kasse/temp1/
+old-moc-data/kasse/temp2/
+old-moc-data/kasse/temp3/
+# Umsatzauswertungen des alten Berichtmoduls
+old-moc-data/umsatz/0*/
+old-moc-data/umsatz/1*/
+old-moc-data/umsatz/2*/
+learning/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
