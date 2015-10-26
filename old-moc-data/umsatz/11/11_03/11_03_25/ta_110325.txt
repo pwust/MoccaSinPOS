@@ -1,0 +1,150 @@
+Tagesabschluss f¸r den 25.03.11
+
+
+Umsatz brutto: 1344.40Ä
+Umsatz brutto 19%: 1062.10Ä
+Umsatz brutto  7%: 282.30Ä
+Umsatz netto: 1156.35Ä
+Umsatzsteuer: 188.05Ä
+Umsatzsteuer 19%: 169.58Ä
+Umsatzsteuer 7%: 18.48Ä
+
+
+Produkte(bezahlt):
+
+Bagel Cream Cheese here,3
+Bagel Cream Cheese to go,1
+Bagel Fitness here,3
+Bagel Fitness to go,3
+Bagel India here,1
+Bagel Mexico here,3
+Bagel plain here,7
+Bagel plain to go,1
+Bagel Roma oder Florenz here,10
+Bagel Roma oder Florenz to go,5
+Bagel Stulle Deluxe here,4
+Bagel Stulle Deluxe to go,2
+Brezel Butter here,3
+Brezel plain here,3
+Cafe Creme groﬂ  here,6
+Cafe Creme groﬂ  to go,3
+Cafe Creme klein  here,14
+Cafe Creme klein  to go,9
+Caffe Latte mit Sirup here,2
+Caffe Latte mit Sirup to go,2
+Caffe Latte ohne Sirup here,20
+Caffe Latte ohne Sirup to go,12
+Cappuccino groﬂ  here,11
+Cappuccino groﬂ  to go,6
+Cappuccino klein  here,11
+Cappuccino klein  to go,11
+Chai Tea groﬂ Chai Banana here,1
+Chai Tea groﬂ Chai Chocolate here,2
+Chai Tea groﬂ Chai Tea Latte here,6
+Chai Tea groﬂ Chai Tea Latte to go,5
+Chai Tea klein Chai Tea Latte here,6
+Chai Tea klein Chai Tea Latte to go,4
+Chocolate groﬂ black here,2
+Chocolate groﬂ white to go,1
+Chocolate klein black here,5
+Chocolate klein white here,2
+Chocolate klein white to go,1
+Cookie here,8
+Cookie to go,5
+Cool Latte Iced Caffe to go,2
+Cool Latte Iced Macchiato here,3
+Cool Latte Iced Macchiato to go,4
+Donut here,6
+Donut to go,1
+Eiskaffee here,10
+Eiskaffee to go,2
+Eisschokolade here,6
+Eisschokolade to go,3
+Eistee here,4
+Eistee to go,1
+Espresso groﬂ Macchiato here,3
+Espresso groﬂ Macchiato to go,2
+Espresso groﬂ Originale here,4
+Espresso klein Cuba here,1
+Espresso klein Lungo here,1
+Espresso klein Macchiato here,2
+Espresso klein Originale here,1
+Espresso klein Originale to go,1
+Espresso klein Unplugged here,1
+Espresso Latte here,4
+Frappe white here,2
+Frappe white to go,6
+Fruchtsaft frisch groﬂ  here,1
+Fruchtsaft frisch klein  here,1
+Iced Chai Latte here,2
+Iced Chai Latte to go,3
+Kaffee here,14
+Kaffee to go,6
+Kaffeeverkauf sortenrein klein Costa Rica to go,1
+Kaffegetr‰nk groﬂ Mexiko Organico here,1
+Kaffeverkauf Hausmischung klein Cafe Creme to go,1
+Kaffezusatz Espresso Shot to go,1
+Kaffezusatz Lac.-frei here,6
+Kaffezusatz Lac.-frei to go,5
+Kaffezusatz Sahne to go,1
+Kaffezusatz Soja to go,4
+Kapuziner klein  here,1
+Latte Macchiato mit Sirup here,18
+Latte Macchiato mit Sirup to go,11
+Latte Macchiato ohne Sirup here,28
+Latte Macchiato ohne Sirup to go,31
+Mocca groﬂ black here,7
+Mocca groﬂ black to go,2
+Mocca groﬂ white here,7
+Mocca groﬂ white to go,4
+Mocca klein black here,3
+Mocca klein white here,2
+MoccaSin here,3
+Muffin here,35
+Muffin to go,22
+Preis here,1
+Smoothie plain here,6
+Smoothie plain to go,17
+Softdrink Bionade here,2
+Softdrink Bionade to go,1
+Softdrink Bottle AFG here,2
+Softdrink Bottle AFG to go,4
+Softdrink Wasser here,3
+Softdrink Wasser to go,3
+Special Latte Chocolate Latte here,2
+Special Latte Latte Caramel here,4
+Special Latte Latte Caramel to go,1
+Special Latte Tiramisu Latte to go,2
+Special Latte White Banana Chocolate here,4
+Tea here,4
+Tea to go,1
+
+
+Produkte(Bonus):
+
+Caffe Latte mit Sirup here,1
+Caffe Latte ohne Sirup to go,1
+Cappuccino groﬂ  to go,1
+Cappuccino klein  here,1
+Cappuccino klein  to go,1
+Latte Macchiato mit Sirup here,1
+Latte Macchiato ohne Sirup here,4
+Mocca klein white to go,1
+
+
+Mitarbeiterbuchungen:
+
+Fr¸h1,513.30Ä,216 bezahlte Buchungen,8 Bonusbuchungen
+Sp‰t1,831.10Ä,336 bezahlte Buchungen,3 Bonusbuchungen
+
+
+Stornierungen:
+
+
+
+
+Fehlbuchungen:
+
+
+
+

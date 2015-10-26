@@ -1,0 +1,131 @@
+Heißgetränke allgemein
+
+Kaffee,5048,Cafe Creme klein,Cafe Creme groß,Caffe Latte,Cappucino,Espresso,Kaffee,Kapuziner,Latte Macchiato,Mocca
+Schokolade,294,Chocolate
+Milch,14,MIlk
+Tee,447,Tea
+Kaffe Sorten,46,Wiener Melange,Guatemala,Peru,Mexiko Organico,Java,Kenya Arabica AA,Äthiopischer Mocca,India Malabar,Maragogype
+
+
+Heißgetränke einzeln
+
+Cafe Creme,649,Cafe Creme klein,Cafe Creme groß
+Caffe Latte,796,Caffe Latte
+Cappucino,0,Cappucino
+Espresso,707,Espresso
+Kaffee,729,Kaffee
+Kapuziner,25,Kapuziner
+Latte Macchiato,1744,Latte Macchiato
+Mocca,398,Mocca
+Schokolade,294,Chocolate
+Milch,14,MIlk
+Chai Tea,339,Chai Tea
+Tee,108,Tea
+
+
+HERE TOGO
+
+to go,5365,to go
+here,8183,here
+
+
+Flavour
+
+mit Sirup,605,mit Sirup
+Flavour Shot,144,Flavour Shot
+ohne Sirup,1935,ohne Sirup
+
+
+KaffeeTee Softdrink
+
+KaffeeTee,5808,Cafe Creme,Caffe Latte,Cappucino,Espresso,Kaffee,Kapuziner,Latte Macchiato,Mocca,Chocolate,MIlk,Tea,Iced Espresso,Eiskaffee
+Softdrink,29,Afri,Bluna,Apfelschorle,Selters,Vittel,Red Bull,Fruchtsaft
+
+
+Essen
+
+Bagels,985,Bagel
+Toasts,0,Toast
+Brownies,0,brownie
+Cookies,261,cookie
+Croissants,0,Croissant
+Donuts,288,Donut
+Muffins,1012,Muffin
+
+
+Trinken Essen
+
+Trinken,5837,Cafe Creme,Caffe Latte,Cappucino,Espresso,Kaffee,Kapuziner,Latte Macchiato,Mocca,Chocolate,MIlk,Tea,Iced Espresso,Eiskaffee,Afri,Bluna,Apfelschorle,Selters,Vittel,Red Bull,Fruchtsaft
+Essen,2546,Bagel,brownie,cookie,croissant,donut,Muffin
+
+
+Regal
+
+Kaffeeverkauf,61,Kaffeeverkauf
+Nebenprodukte,12,Nebenprodukte Ghirardelli Chocolate,Nebenprodukte Just-T,Nebenprodukte Sirup,Nebenprodukte Buch,Nebenprodukte Geschenkset,Nebenprodukte Kaffeekerze,Nebenprodukte Eierlikör,Nebenprodukte Cremecafe,Nebenprodukte Cap tea,Nebenprodukte Coffee Bag,Nebenprodukte Kaffee Schuss
+Merchandising,0,Merchandising Cap,Merchandising T-Shirt,Merchandising Espresso+UTeller,Merchandising Cappucino+UTeller,Merchandising Kaffee.groß+UTeller,Merchandising Kaffee.klein+UTeller,Merchandising Teller,Merchandising Unterteller.groß,Merchandising Unterteller.klein
+
+
+Kaffeverkauf
+
+Cafe entcoffeiniert,0,Cafe entcoffeiniert
+Espresso Originale,10,Espresso Originale
+Espresso Cuba,10,Espresso Cuba
+Espresso Barista,7,Espresso Barista
+Espresso Coffeinfrei,1,Espresso Coffeinfrei
+Cafe Creme,0,Kaffeeverkauf Sorten klein Cafe Creme,Kaffeeverkauf Sorten groß Cafe Creme
+Wiener Melange,6,Wiener Melange
+Guatemala,1,Guatemala
+Peru,3,Peru
+Mexiko Organico,36,Mexiko Organico
+Java,5,Java
+Kenya Arabica AA,7,Kenya Arabica AA
+Äthiopischer Mocca,5,Äthiopischer Mocca
+India Malabar,1,India Malabar
+Maragogype,2,Maragogype
+
+
+Bagel
+
+Bagel plain,89,Bagel plain
+Bagel Cream Cheese,64,Bagel Cream Cheese
+Bagel Peanut Butter,8,Bagel Peanut Butter
+Bagel Morning Star,23,Bagel Morning Star
+Bagel Bavaria,0,Bagel Bavaria
+Bagel Green Garden,35,Bagel Green Garden
+Bagel Roma,390,Bagel Roma
+Bagel Stulle Deluxe,114,Bagel Stulle Deluxe
+Bagel Fitness,145,Bagel Fitness
+Bagel Bohemian,0,Bagel Bohemian
+
+
+Toast
+
+Toast Italy,0,Toast Italy
+Toast KA,0,Toast KA
+Toast Fitness,0,Toast Fitness
+
+
+Cool Drinks einzeln
+
+Cool Latte Iced Espresso,55,Cool Latte Iced Espresso
+Cool Latte Iced Latte,0,Cool Latte Iced Latte
+Cool Latte Iced Macchiato,306,Cool Latte Iced Macchiato
+Frappe black,180,Frappe black
+Frappe White,156,Frappe White
+Iced Espresso,4,Iced Espresso
+Eiskaffee,345,Eiskaffee
+Eisschokolade,241,Eisschokolade
+Eistee,116,Eistee
+Iced Chai Latte,136,Iced Chai Latte
+Smoothie,812,Smoothie
+
+
+Cool Drinks allgemein
+
+Cool Latte,361,Cool Latte Iced Espresso,Cool Latte Iced Latte,Cool Latte Iced Macchiato
+Frappe,336,Frappe black,Frappe White
+Iced Rest,842,Iced Espresso,Eiskaffee,Eisschokolade,Eistee,Iced Chai Latte
+Smoothie,812,Smoothie
+
+

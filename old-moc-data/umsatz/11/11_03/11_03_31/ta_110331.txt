@@ -1,0 +1,121 @@
+Tagesabschluss f¸r den 31.03.11
+
+
+Umsatz brutto: 850.90Ä
+Umsatz brutto 19%: 758.80Ä
+Umsatz brutto  7%: 92.10Ä
+Umsatz netto: 723.72Ä
+Umsatzsteuer: 127.18Ä
+Umsatzsteuer 19%: 121.15Ä
+Umsatzsteuer 7%: 6.03Ä
+
+
+Produkte(bezahlt):
+
+Bagel Cream Cheese to go,1
+Bagel Fitness here,5
+Bagel Mexico here,1
+Bagel plain here,2
+Bagel plain to go,3
+Bagel Roma oder Florenz here,9
+Bagel Stulle Deluxe here,3
+Bagel Stulle Deluxe to go,1
+Brezel plain here,7
+Brezel plain to go,1
+Cafe Creme groﬂ  here,6
+Cafe Creme klein  here,11
+Cafe Creme klein  to go,3
+Caffe Latte mit Sirup here,3
+Caffe Latte mit Sirup to go,5
+Caffe Latte ohne Sirup here,13
+Caffe Latte ohne Sirup to go,5
+Cappuccino groﬂ  here,8
+Cappuccino groﬂ  to go,7
+Cappuccino klein  here,21
+Cappuccino klein  to go,4
+Chai Tea groﬂ Chai Tea Latte here,4
+Chai Tea groﬂ Chai Tea Latte to go,2
+Chai Tea klein Chai Tea Latte here,6
+Chai Tea klein Chai Tea Latte to go,1
+Chocolate groﬂ Bio-Kakao here,1
+Chocolate groﬂ black here,5
+Chocolate klein black here,3
+Chocolate klein white here,1
+Cookie here,10
+Cookie to go,4
+Cool Latte Iced Macchiato here,1
+Donut here,5
+Donut to go,4
+Eisschokolade here,2
+Eistee here,1
+Espresso groﬂ Originale here,1
+Espresso groﬂ Unplugged here,1
+Espresso klein Cuba here,3
+Espresso klein Orange here,1
+Espresso klein Originale here,8
+Espresso Latte here,2
+Espresso Latte to go,1
+Frappe white here,3
+Fruchtsaft frisch groﬂ  here,4
+Fruchtsaft frisch klein  here,2
+Kaffee here,11
+Kaffee to go,3
+Kaffezusatz Lac.-frei to go,1
+Kaffezusatz Soja here,3
+Kaffezusatz Soja to go,1
+Kapuziner klein  here,1
+Kapuziner klein  to go,1
+Latte Macchiato mit Sirup here,8
+Latte Macchiato mit Sirup to go,3
+Latte Macchiato ohne Sirup here,29
+Latte Macchiato ohne Sirup to go,8
+Mocca groﬂ black here,2
+Mocca groﬂ white here,3
+Mocca groﬂ white to go,1
+Mocca klein white here,1
+MoccaSin here,2
+Muffin here,20
+Muffin to go,15
+Preis here,1
+Preis to go,1
+Smoothie plain here,3
+Softdrink Bottle AFG here,6
+Softdrink Wasser here,1
+Softdrink Wasser to go,1
+Special Latte Chocolate Latte here,5
+Special Latte Latte Caramel here,11
+Special Latte Latte Caramel to go,4
+Special Latte Tiramisu Latte to go,1
+Special Latte White Banana Chocolate here,3
+Tea here,8
+Tea to go,2
+
+
+Produkte(Bonus):
+
+Caffe Latte ohne Sirup here,1
+Cappuccino groﬂ  here,1
+Cappuccino groﬂ  to go,1
+Cappuccino klein  here,1
+Espresso groﬂ Originale here,1
+Espresso Latte here,1
+Kaffee to go,1
+Latte Macchiato mit Sirup to go,1
+
+
+Mitarbeiterbuchungen:
+
+Fr¸h1,339.30Ä,151 bezahlte Buchungen,7 Bonusbuchungen
+Sp‰t1,511.60Ä,204 bezahlte Buchungen,1 Bonusbuchungen
+
+
+Stornierungen:
+
+
+
+
+Fehlbuchungen:
+
+
+
+

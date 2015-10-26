@@ -1,0 +1,230 @@
+ Zeit,06:00,07:00,08:00,09:00,10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00,18:00,19:00,20:00,21:00,22:00
+Bagel Cream Cheese here,0,0,3,5,8,1,2,6,4,2,4,2,2,2,0,0,0
+Bagel Cream Cheese to go,0,1,13,0,1,1,1,0,1,1,3,1,0,0,0,0,0
+Bagel Fitness here,0,0,1,10,4,13,18,24,13,6,9,2,4,1,0,0,0
+Bagel Fitness to go,0,0,0,7,4,2,8,4,5,6,0,3,0,1,0,0,0
+Bagel Green Garden here,0,0,0,1,2,2,8,7,4,4,3,1,1,0,0,0,0
+Bagel Green Garden to go,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Bagel India here,0,0,0,0,0,2,7,5,4,4,2,2,0,1,0,0,0
+Bagel India to go,0,0,0,0,1,0,0,3,0,1,1,0,0,0,0,0,0
+Bagel Mexico here,0,0,1,1,2,5,14,12,7,4,7,3,4,0,0,0,0
+Bagel Mexico to go,0,0,0,0,0,0,2,1,1,2,3,1,0,0,0,0,0
+Bagel Morning Star here,0,1,6,5,5,2,3,0,0,0,0,0,0,0,0,0,0
+Bagel Morning Star to go,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bagel Peanut Butter here,0,0,1,0,0,0,2,1,0,0,0,2,0,0,0,0,0
+Bagel Peanut Butter to go,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Bagel plain here,0,0,0,1,2,4,3,2,2,0,5,4,1,1,0,0,0
+Bagel plain to go,0,3,7,6,1,6,12,1,7,5,3,10,3,0,0,0,0
+Bagel Roma oder Florenz here,0,3,5,16,13,30,55,60,36,30,19,14,8,9,0,0,0
+Bagel Roma oder Florenz to go,0,5,8,8,5,8,16,12,10,9,6,4,1,0,0,0,0
+Bagel Stulle Deluxe here,0,0,3,4,3,6,24,17,13,5,2,8,1,1,0,0,0
+Bagel Stulle Deluxe to go,0,3,0,0,4,5,1,4,1,1,3,0,5,0,0,0,0
+Bagel Vital here,0,0,0,0,1,1,2,1,1,2,0,2,1,0,0,0,0
+Bagel Vital to go,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0
+Brezel Butter here,0,0,3,0,1,3,1,1,1,0,4,2,0,0,0,0,0
+Brezel Butter to go,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+Brezel plain here,0,2,1,3,8,7,12,8,5,7,6,2,2,0,0,0,0
+Brezel plain to go,0,0,2,5,3,1,1,0,1,5,4,0,1,0,0,0,0
+Cafe Creme groﬂ  here,0,2,4,3,9,8,9,8,10,18,15,14,7,0,0,0,0
+Cafe Creme groﬂ  to go,0,15,11,6,6,5,2,6,6,13,15,8,9,2,0,0,0
+Cafe Creme klein  here,0,14,9,11,11,14,43,42,17,38,34,31,25,12,0,0,0
+Cafe Creme klein  to go,0,1,7,13,12,5,10,12,11,19,16,11,10,10,0,0,0
+Caffe Latte mit Sirup here,0,1,0,4,3,3,4,6,8,11,8,10,3,0,0,0,0
+Caffe Latte mit Sirup to go,0,0,3,2,5,3,6,4,5,6,3,5,4,1,0,0,0
+Caffe Latte ohne Sirup here,0,7,21,19,30,32,48,51,47,39,49,39,16,5,0,0,0
+Caffe Latte ohne Sirup to go,0,5,10,10,21,24,23,36,26,40,44,21,20,5,0,0,0
+Cappuccino groﬂ  here,0,3,14,14,18,17,36,41,37,34,34,27,16,8,0,0,0
+Cappuccino groﬂ  to go,0,7,19,10,4,9,14,24,23,23,22,15,7,2,0,0,0
+Cappuccino klein  here,0,1,3,14,28,28,55,62,59,24,42,25,18,11,0,0,0
+Cappuccino klein  to go,0,2,5,11,5,9,19,20,22,18,21,8,6,7,0,0,0
+Chai Tea groﬂ Chai Banana here,0,0,0,2,1,1,3,2,0,1,2,3,4,1,0,0,0
+Chai Tea groﬂ Chai Banana to go,0,0,0,0,0,0,2,1,1,0,1,2,0,3,0,0,0
+Chai Tea groﬂ Chai Tea Latte here,0,1,3,5,4,13,5,11,16,12,14,15,16,8,0,0,0
+Chai Tea groﬂ Chai Tea Latte to go,0,1,0,2,1,6,5,10,10,8,3,9,8,8,0,0,0
+Chai Tea klein Chai Tea Latte here,0,1,1,2,5,3,13,7,12,3,14,11,6,3,0,0,0
+Chai Tea klein Chai Tea Latte to go,0,0,0,1,1,2,4,4,2,8,4,2,3,3,0,0,0
+Chocolate groﬂ Bio-Kakao here,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0
+Chocolate groﬂ Bio-Kakao to go,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Chocolate groﬂ black here,0,0,0,2,1,5,8,4,2,4,12,3,7,3,0,0,0
+Chocolate groﬂ black to go,0,0,0,0,3,4,0,4,6,3,9,2,3,3,0,0,0
+Chocolate groﬂ Marshmallow Chocolate here,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,0
+Chocolate groﬂ Marshmallow Chocolate to go,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Chocolate groﬂ white here,0,1,1,0,2,0,1,0,0,4,2,1,2,0,0,0,0
+Chocolate groﬂ white to go,0,0,0,0,0,0,2,3,0,2,2,2,1,0,0,0,0
+Chocolate klein Bio-Kakao here,0,0,0,7,1,0,0,1,0,0,1,0,0,0,0,0,0
+Chocolate klein Bio-Kakao to go,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+Chocolate klein black here,0,0,4,3,6,6,1,3,8,7,10,5,9,2,0,0,0
+Chocolate klein black to go,0,0,0,0,0,1,5,1,2,3,2,4,3,0,0,0,0
+Chocolate klein white here,0,0,0,3,0,0,4,2,2,2,2,6,2,0,0,0,0
+Chocolate klein white to go,0,0,0,0,0,0,0,0,0,2,3,3,0,3,0,0,0
+Cookie here,0,2,2,4,5,3,24,24,17,19,17,18,13,3,0,0,0
+Cookie to go,0,1,4,6,3,7,17,18,14,15,12,6,3,4,0,0,0
+Cool Latte Iced Caffe here,0,0,0,0,1,3,2,9,19,19,12,17,4,2,0,0,0
+Cool Latte Iced Caffe to go,0,0,0,0,1,1,6,16,26,29,30,20,8,2,0,0,0
+Cool Latte Iced Espresso here,0,0,0,1,0,1,1,5,7,3,3,2,2,0,0,0,0
+Cool Latte Iced Espresso to go,0,0,0,0,0,0,4,6,7,2,3,2,3,3,0,0,0
+Cool Latte Iced Macchiato here,0,0,0,2,2,5,6,10,26,27,21,14,6,1,0,0,0
+Cool Latte Iced Macchiato to go,0,0,0,0,2,3,7,18,46,42,38,22,4,4,0,0,0
+Donut here,0,1,1,7,5,7,17,11,18,32,21,23,4,4,0,0,0
+Donut to go,0,0,2,10,5,27,11,6,14,20,11,19,8,4,0,0,0
+Eis here,0,0,0,0,0,0,0,1,0,4,1,2,2,0,0,0,0
+Eis to go,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0
+Eiskaffee here,0,0,0,0,0,3,8,30,30,31,44,21,14,5,0,0,0
+Eiskaffee to go,0,0,0,0,2,2,4,16,24,40,41,18,8,4,0,0,0
+Eisschokolade here,0,0,0,2,1,1,10,15,17,34,27,17,9,0,0,0,0
+Eisschokolade to go,0,0,0,0,1,2,3,15,13,28,23,14,7,2,0,0,0
+Eistee here,0,0,0,0,1,1,7,8,24,21,8,5,3,0,0,0,0
+Eistee to go,0,0,0,0,0,2,2,5,3,9,10,5,2,0,0,0,0
+Espresso groﬂ Barista here,0,0,0,0,0,0,0,3,0,0,1,2,0,1,0,0,0
+Espresso groﬂ Barista to go,0,0,0,0,0,0,0,2,0,0,1,0,2,0,0,0,0
+Espresso groﬂ Cuba here,0,0,0,0,1,0,1,4,3,0,0,0,4,0,0,0,0
+Espresso groﬂ Cuba to go,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0
+Espresso groﬂ Macchiato here,0,0,0,3,0,2,2,5,0,4,1,2,0,0,0,0,0
+Espresso groﬂ Macchiato to go,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0
+Espresso groﬂ Originale here,0,0,1,2,1,6,6,11,2,7,4,0,2,3,0,0,0
+Espresso groﬂ Originale to go,0,0,0,0,0,0,1,3,1,1,2,1,2,0,0,0,0
+Espresso groﬂ Unplugged here,0,0,0,0,1,0,2,1,1,2,0,1,0,1,0,0,0
+Espresso groﬂ Unplugged to go,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+Espresso klein Barista here,0,0,1,0,1,1,3,2,1,1,1,0,1,1,0,0,0
+Espresso klein Barista to go,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Espresso klein Cuba here,0,0,1,0,0,0,5,3,3,2,6,1,0,1,0,0,0
+Espresso klein Cuba to go,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Espresso klein Lungo here,0,0,0,0,1,1,0,2,1,0,1,0,0,1,0,0,0
+Espresso klein Lungo to go,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Espresso klein Macchiato here,0,1,0,1,1,4,3,13,6,5,1,2,0,0,0,0,0
+Espresso klein Macchiato to go,0,0,0,0,0,0,1,1,2,1,0,0,2,3,0,0,0
+Espresso klein Orange here,0,0,0,0,1,0,1,1,1,0,0,1,3,5,0,0,0
+Espresso klein Originale here,0,1,1,3,5,9,24,23,18,17,15,6,12,9,0,0,0
+Espresso klein Originale to go,0,1,0,0,0,0,2,1,0,4,6,2,0,1,0,0,0
+Espresso klein Unplugged here,0,1,0,1,0,2,3,8,2,1,0,1,0,1,0,0,0
+Espresso klein Unplugged to go,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+Espresso Latte here,0,0,2,4,6,10,22,24,7,10,5,10,7,3,0,0,0
+Espresso Latte to go,0,0,1,2,3,5,5,2,4,7,4,0,4,0,0,0,0
+Frappe black here,0,0,0,0,0,0,7,7,17,19,22,7,1,2,0,0,0
+Frappe black to go,0,0,0,0,0,1,5,7,16,27,31,8,1,2,0,0,0
+Frappe white here,0,0,0,0,0,0,9,4,15,10,14,5,2,3,0,0,0
+Frappe white to go,0,0,0,0,0,5,7,9,15,21,23,6,7,1,0,0,0
+Fruchtsaft frisch groﬂ  here,0,0,0,2,1,0,1,1,3,2,0,2,1,0,0,0,0
+Fruchtsaft frisch groﬂ  to go,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+Fruchtsaft frisch klein  here,0,0,0,0,1,4,0,3,1,1,2,1,0,0,0,0,0
+Fruchtsaft frisch klein  to go,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Heiﬂe S‰fte Heiﬂe Orange here,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Heiﬂe S‰fte Heiﬂe Zitrone here,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+Heiﬂe S‰fte Heiﬂer Apfel here,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+Iced Chai Latte here,0,0,0,0,0,3,5,10,9,13,8,7,4,1,0,0,0
+Iced Chai Latte to go,0,0,0,0,0,1,5,10,8,27,12,5,5,3,0,0,0
+Iced Espresso here,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Iced Espresso to go,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0
+Kaffee here,0,2,5,10,3,20,32,38,27,27,30,24,20,7,0,0,0
+Kaffee to go,0,1,2,9,3,7,31,9,6,8,22,5,10,2,0,0,0
+Kaffeeverkauf Espressobohnen groﬂ Espresso Barista here,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen groﬂ Espresso Barista to go,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen groﬂ Espresso Cuba here,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen groﬂ Espresso Cuba to go,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0
+Kaffeeverkauf Espressobohnen groﬂ Espresso Originale to go,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen groﬂ Unplugged here,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen groﬂ Unplugged to go,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen klein Espresso Barista here,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Kaffeeverkauf Espressobohnen klein Espresso Barista to go,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+Kaffeeverkauf Espressobohnen klein Espresso Coffeinfrei to go,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen klein Espresso Cuba to go,0,0,0,1,0,0,0,1,0,0,0,0,2,1,0,0,0
+Kaffeeverkauf Espressobohnen klein Espresso Originale here,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen klein Espresso Originale to go,0,0,0,0,0,0,0,1,0,2,1,0,1,0,0,0,0
+Kaffeeverkauf Espressobohnen klein Unplugged here,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+Kaffeeverkauf Espressobohnen klein Unplugged to go,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf Goldline Blue Mountain here,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf Goldline Blue Mountain to go,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf Goldline Galapagos to go,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf sortenrein groﬂ ƒthiopischer Mocca here,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf sortenrein groﬂ ƒthiopischer Mocca to go,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Kaffeeverkauf sortenrein groﬂ Costa Rica to go,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf sortenrein groﬂ Kenya Arabica AA here,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf sortenrein groﬂ Peru to go,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf sortenrein klein ƒthiopischer Mocca to go,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Kaffeeverkauf sortenrein klein Guatemala here,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Kaffeeverkauf sortenrein klein Java to go,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf sortenrein klein Kenya Arabica AA to go,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0
+Kaffeeverkauf sortenrein klein Maragogype to go,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+Kaffeeverkauf sortenrein klein Mexiko Organico here,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+Kaffeeverkauf sortenrein klein Mexiko Organico to go,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Kaffeeverkauf sortenrein klein Peru to go,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Kaffegetr‰nk groﬂ Costa Rica here,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Kaffegetr‰nk groﬂ Costa Rica to go,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Kaffegetr‰nk groﬂ India Malabar to go,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Kaffegetr‰nk groﬂ Java here,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0
+Kaffegetr‰nk groﬂ Mexiko Organico here,0,0,0,1,0,1,1,3,1,3,1,2,1,0,0,0,0
+Kaffegetr‰nk groﬂ Mexiko Organico to go,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+Kaffegetr‰nk groﬂ Peru here,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Kaffegetr‰nk groﬂ Wiener Melange here,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Kaffegetr‰nk groﬂ Wiener Melange to go,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+Kaffegetr‰nk klein Costa Rica here,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+Kaffegetr‰nk klein Kenya Arabica AA to go,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Kaffegetr‰nk klein Mexiko Organico here,0,0,0,0,0,0,1,1,1,0,1,4,7,0,0,0,0
+Kaffegetr‰nk klein Mexiko Organico to go,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+Kaffeverkauf Hausmischung groﬂ Wiener Melange to go,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Kaffeverkauf Hausmischung klein Cafe Creme here,0,0,0,0,0,0,1,0,0,0,0,1,2,0,0,0,0
+Kaffeverkauf Hausmischung klein Cafe Creme to go,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Kaffeverkauf Hausmischung klein Wiener Melange to go,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Kaffezusatz Espresso Shot here,0,1,0,8,3,2,3,2,0,3,5,2,1,0,0,0,0
+Kaffezusatz Espresso Shot to go,0,0,0,2,0,5,1,3,0,5,4,2,3,0,0,0,0
+Kaffezusatz Flavour Shot here,0,0,2,1,2,4,8,6,10,9,14,10,5,3,0,0,0
+Kaffezusatz Flavour Shot to go,0,1,0,0,3,2,3,4,20,15,10,5,5,2,0,0,0
+Kaffezusatz Lac.-frei here,0,0,1,4,8,7,13,16,15,11,10,11,6,4,0,0,0
+Kaffezusatz Lac.-frei to go,0,3,4,2,5,4,7,10,15,17,15,5,7,6,0,0,0
+Kaffezusatz Sahne here,0,0,0,0,1,2,2,2,6,4,4,1,2,0,0,0,0
+Kaffezusatz Sahne to go,0,0,0,1,0,0,1,0,1,2,2,0,1,0,0,0,0
+Kaffezusatz Soja here,0,0,2,7,5,4,14,9,15,5,14,12,5,7,0,0,0
+Kaffezusatz Soja to go,0,0,1,3,0,3,5,9,19,11,17,5,3,3,0,0,0
+Kapuziner groﬂ  here,0,0,0,0,0,0,1,2,3,0,3,0,1,0,0,0,0
+Kapuziner groﬂ  to go,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Kapuziner klein  here,0,0,1,1,1,1,1,1,0,1,0,3,0,0,0,0,0
+Kapuziner klein  to go,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+Kuchen here,0,0,2,1,2,7,7,26,15,23,28,14,4,1,0,0,0
+Kuchen to go,0,0,0,0,0,4,2,4,3,7,9,3,1,0,1,0,0
+Latte Macchiato mit Sirup here,0,0,6,18,19,18,35,33,29,29,28,32,23,8,0,0,0
+Latte Macchiato mit Sirup to go,0,9,9,13,10,22,11,29,20,30,32,13,11,10,0,0,0
+Latte Macchiato ohne Sirup here,0,2,8,24,37,51,127,102,60,91,91,68,56,18,0,0,0
+Latte Macchiato ohne Sirup to go,0,4,29,25,27,37,66,57,48,71,68,40,28,11,1,0,0
+Milk groﬂ  here,0,0,0,0,1,0,4,0,0,0,2,0,0,0,0,0,0
+Milk groﬂ  to go,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Milk klein  here,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0,0
+Milk klein  to go,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+Mocca groﬂ black here,0,0,4,1,4,3,9,4,8,4,4,6,4,0,0,0,0
+Mocca groﬂ black to go,0,1,0,2,1,1,7,5,3,6,5,2,0,0,0,0,0
+Mocca groﬂ white here,0,0,0,0,1,2,6,4,7,8,13,2,1,2,0,0,0
+Mocca groﬂ white to go,0,3,2,3,3,3,4,10,11,11,11,11,4,1,0,0,0
+Mocca klein black here,0,0,0,2,2,0,3,2,5,8,9,8,5,1,0,0,0
+Mocca klein black to go,0,0,0,1,1,2,1,1,0,5,1,4,6,2,0,0,0
+Mocca klein white here,0,0,0,1,2,5,6,6,9,7,6,10,5,2,0,0,0
+Mocca klein white to go,0,0,0,1,0,4,2,5,1,5,4,2,4,4,1,0,0
+MoccaSin here,0,0,0,1,0,0,2,0,5,1,1,4,1,0,0,0,0
+MoccaSin to go,0,1,0,2,1,3,1,1,1,1,1,2,0,0,0,0,0
+Muffin here,0,5,16,22,27,34,44,70,80,102,104,78,46,18,0,0,0
+Muffin to go,0,9,19,23,14,24,14,51,43,58,52,23,22,12,2,0,0
+M¸sli here,0,1,0,0,1,1,0,1,0,2,0,0,0,0,0,0,0
+M¸sli to go,0,2,0,5,0,0,0,1,0,0,1,0,0,0,0,0,0
+Nebenprodukte MoccaSin Chocolate white here,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Nebenprodukte Sirup groﬂ here,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Nebenprodukte Sirup groﬂ to go,0,0,0,0,0,2,0,0,0,4,0,3,0,0,0,0,0
+Nebenprodukte Sirup klein to go,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
+Preis here,0,0,0,2,6,6,10,7,4,5,6,2,6,5,0,0,0
+Preis to go,0,0,1,2,1,2,4,3,5,7,7,6,4,10,0,0,0
+Shake here,0,0,0,2,1,2,8,18,17,37,26,26,12,1,0,0,0
+Shake to go,0,0,1,0,1,2,2,13,15,28,34,15,5,0,0,0,0
+Smoothie plain here,0,0,1,1,1,5,21,52,42,64,43,45,23,6,0,0,0
+Smoothie plain to go,0,0,0,1,6,5,18,68,81,125,107,53,25,19,0,0,0
+Softdrink Bionade here,0,0,0,1,2,3,14,3,11,12,8,13,2,4,0,0,0
+Softdrink Bionade to go,0,0,0,0,0,1,1,1,0,3,3,1,0,1,0,0,0
+Softdrink Bottle AFG here,0,0,1,4,2,7,23,28,32,16,26,15,12,7,0,0,0
+Softdrink Bottle AFG to go,0,0,0,0,0,4,4,9,11,16,10,6,4,1,1,0,0
+Softdrink Wasser here,0,0,0,1,3,4,7,13,13,11,11,8,4,0,0,0,0
+Softdrink Wasser to go,0,0,0,0,0,3,1,7,10,4,6,5,0,0,0,0,0
+Special Latte Chocolate Latte here,0,0,0,3,1,0,3,2,4,0,0,7,0,0,0,0,0
+Special Latte Chocolate Latte to go,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+Special Latte Latte Caramel here,0,0,5,4,10,16,21,20,23,13,30,16,17,3,0,0,0
+Special Latte Latte Caramel to go,0,0,2,3,0,5,7,3,9,9,15,11,4,4,0,0,0
+Special Latte Tiramisu Latte here,0,0,0,1,0,0,0,0,0,0,2,1,0,1,0,0,0
+Special Latte White Banana Chocolate here,0,0,0,1,1,0,0,0,0,2,2,3,0,0,0,0,0
+Special Latte White Banana Chocolate to go,0,0,0,0,0,0,0,0,0,1,2,0,3,0,0,0,0
+Tea here,0,0,2,4,7,11,8,14,11,7,8,10,9,1,0,0,0
+Tea to go,0,0,1,1,0,1,0,2,0,1,5,3,0,2,0,0,0

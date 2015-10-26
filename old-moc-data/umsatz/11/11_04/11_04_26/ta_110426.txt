@@ -1,0 +1,140 @@
+Tagesabschluss für den 26.04.11
+
+
+Umsatz brutto: 1210.10€
+Umsatz brutto 19%: 1014.90€
+Umsatz brutto  7%: 195.20€
+Umsatz netto: 1035.29€
+Umsatzsteuer: 174.81€
+Umsatzsteuer 19%: 162.04€
+Umsatzsteuer 7%: 12.77€
+
+
+Produkte(bezahlt):
+
+Bagel Fitness here,7
+Bagel Green Garden here,2
+Bagel India here,1
+Bagel Morning Star here,1
+Bagel Peanut Butter here,1
+Bagel plain to go,1
+Bagel Roma oder Florenz here,9
+Bagel Roma oder Florenz to go,5
+Bagel Stulle Deluxe here,5
+Cafe Creme groß  here,3
+Cafe Creme klein  here,7
+Cafe Creme klein  to go,6
+Caffe Latte mit Sirup here,2
+Caffe Latte ohne Sirup here,15
+Caffe Latte ohne Sirup to go,6
+Cappuccino groß  here,17
+Cappuccino groß  to go,3
+Cappuccino klein  here,19
+Cappuccino klein  to go,10
+Chai Tea groß Chai Tea Latte here,1
+Chai Tea groß Chai Tea Latte to go,3
+Chai Tea klein Chai Tea Latte here,1
+Chai Tea klein Chai Tea Latte to go,2
+Chocolate groß black here,5
+Chocolate groß white here,1
+Chocolate klein black here,7
+Chocolate klein white here,1
+Cookie here,10
+Cookie to go,4
+Cool Latte Iced Caffe here,4
+Cool Latte Iced Caffe to go,5
+Cool Latte Iced Espresso here,1
+Cool Latte Iced Espresso to go,2
+Cool Latte Iced Macchiato here,1
+Cool Latte Iced Macchiato to go,4
+Donut here,5
+Donut to go,6
+Eiskaffee here,5
+Eisschokolade here,5
+Eisschokolade to go,1
+Eistee here,1
+Espresso groß Macchiato here,1
+Espresso klein Cuba here,2
+Espresso klein Macchiato to go,1
+Espresso klein Originale here,8
+Espresso Latte here,4
+Frappe black here,1
+Frappe black to go,3
+Frappe white here,1
+Frappe white to go,3
+Iced Chai Latte here,1
+Iced Chai Latte to go,1
+Iced Espresso to go,1
+Kaffee here,9
+Kaffee to go,4
+Kaffegetränk groß Mexiko Organico here,1
+Kaffegetränk klein Mexiko Organico here,1
+Kaffezusatz Espresso Shot to go,1
+Kaffezusatz Flavour Shot here,3
+Kaffezusatz Flavour Shot to go,1
+Kaffezusatz Lac.-frei here,4
+Kaffezusatz Lac.-frei to go,1
+Kaffezusatz Sahne here,2
+Kaffezusatz Soja here,8
+Kaffezusatz Soja to go,2
+Kuchen here,6
+Latte Macchiato mit Sirup here,19
+Latte Macchiato mit Sirup to go,6
+Latte Macchiato ohne Sirup here,37
+Latte Macchiato ohne Sirup to go,19
+Mocca groß black here,3
+Mocca groß black to go,1
+Mocca groß white here,1
+Mocca groß white to go,3
+Mocca klein black here,4
+Mocca klein white here,3
+Mocca klein white to go,1
+MoccaSin here,1
+MoccaSin to go,1
+Muffin here,34
+Muffin to go,12
+Preis here,5
+Preis to go,1
+Shake here,10
+Shake to go,3
+Smoothie plain here,14
+Smoothie plain to go,9
+Softdrink Bionade here,4
+Softdrink Bottle AFG here,15
+Softdrink Bottle AFG to go,2
+Softdrink Wasser here,2
+Special Latte Latte Caramel here,10
+Special Latte Latte Caramel to go,5
+Tea here,2
+
+
+Produkte(Bonus):
+
+Cafe Creme klein  here,1
+Caffe Latte mit Sirup here,1
+Cappuccino groß  here,1
+Cappuccino groß  to go,1
+Cappuccino klein  here,1
+Chai Tea klein Chai Tea Latte to go,1
+Kaffee here,1
+Latte Macchiato mit Sirup here,1
+Latte Macchiato mit Sirup to go,1
+Latte Macchiato ohne Sirup here,4
+
+
+Mitarbeiterbuchungen:
+
+Früh1,459.00€,192 bezahlte Buchungen,4 Bonusbuchungen
+Spät1,751.10€,300 bezahlte Buchungen,9 Bonusbuchungen
+
+
+Stornierungen:
+
+
+
+
+Fehlbuchungen:
+
+14:13:10->000000000653935_110426141310.mcb
+
+

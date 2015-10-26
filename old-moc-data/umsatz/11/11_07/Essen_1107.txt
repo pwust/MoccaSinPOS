@@ -1,0 +1,7 @@
+Bagels,1078,Bagel
+Toasts,0,Toast
+Brownies,0,brownie
+Cookies,229,cookie
+Croissants,0,Croissant
+Donuts,356,Donut
+Muffins,1145,Muffin

@@ -1,0 +1,4 @@
+Cool Latte,109,Cool Latte Iced Espresso,Cool Latte Iced Latte,Cool Latte Iced Macchiato
+Frappe,121,Frappe black,Frappe White
+Iced Rest,368,Iced Espresso,Eiskaffee,Eisschokolade,Eistee,Iced Chai Latte
+Smoothie,368,Smoothie

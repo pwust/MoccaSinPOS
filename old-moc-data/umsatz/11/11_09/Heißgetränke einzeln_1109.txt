@@ -1,0 +1,12 @@
+Cafe Creme,730,Cafe Creme klein,Cafe Creme groﬂ
+Caffe Latte,829,Caffe Latte
+Cappucino,0,Cappucino
+Espresso,679,Espresso
+Kaffee,390,Kaffee
+Kapuziner,37,Kapuziner
+Latte Macchiato,1788,Latte Macchiato
+Mocca,397,Mocca
+Schokolade,340,Chocolate
+Milch,11,MIlk
+Chai Tea,339,Chai Tea
+Tee,115,Tea

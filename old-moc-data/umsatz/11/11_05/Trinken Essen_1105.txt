@@ -1,0 +1,2 @@
+Trinken,5171,Cafe Creme,Caffe Latte,Cappucino,Espresso,Kaffee,Kapuziner,Latte Macchiato,Mocca,Chocolate,MIlk,Tea,Iced Espresso,Eiskaffee,Afri,Bluna,Apfelschorle,Selters,Vittel,Red Bull,Fruchtsaft
+Essen,2303,Bagel,brownie,cookie,croissant,donut,Muffin

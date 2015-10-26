@@ -1,0 +1,15 @@
+Cafe entcoffeiniert,0,Cafe entcoffeiniert
+Espresso Originale,11,Espresso Originale
+Espresso Cuba,1,Espresso Cuba
+Espresso Barista,6,Espresso Barista
+Espresso Coffeinfrei,2,Espresso Coffeinfrei
+Cafe Creme,0,Kaffeeverkauf Sorten klein Cafe Creme,Kaffeeverkauf Sorten groß Cafe Creme
+Wiener Melange,5,Wiener Melange
+Guatemala,0,Guatemala
+Peru,2,Peru
+Mexiko Organico,26,Mexiko Organico
+Java,0,Java
+Kenya Arabica AA,3,Kenya Arabica AA
+Äthiopischer Mocca,9,Äthiopischer Mocca
+India Malabar,1,India Malabar
+Maragogype,3,Maragogype

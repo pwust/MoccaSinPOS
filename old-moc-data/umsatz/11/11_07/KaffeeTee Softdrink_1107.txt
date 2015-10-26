@@ -1,0 +1,2 @@
+KaffeeTee,5915,Cafe Creme,Caffe Latte,Cappucino,Espresso,Kaffee,Kapuziner,Latte Macchiato,Mocca,Chocolate,MIlk,Tea,Iced Espresso,Eiskaffee
+Softdrink,30,Afri,Bluna,Apfelschorle,Selters,Vittel,Red Bull,Fruchtsaft

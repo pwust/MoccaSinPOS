@@ -1,0 +1,252 @@
+Monatsabschluss f¸r den Monat 09.11
+
+
+Umsatz brutto: 33039.70Ä
+Umsatz brutto 19%: 27127.70Ä
+Umsatz brutto  7%: 5912.00Ä
+Umsatz netto: 28321.72Ä
+Umsatzsteuer: 4717.98Ä
+Umsatzsteuer 19%: 4331.19Ä
+Umsatzsteuer 7%: 386.79Ä
+
+
+Produkte(bezahlt):
+
+Bagel Cream Cheese here,58
+Bagel Cream Cheese to go,12
+Bagel Fitness here,127
+Bagel Fitness to go,40
+Bagel Green Garden here,24
+Bagel Green Garden to go,1
+Bagel India here,35
+Bagel India to go,6
+Bagel Mexico here,81
+Bagel Mexico to go,9
+Bagel Morning Star here,25
+Bagel Morning Star to go,4
+Bagel Peanut Butter here,2
+Bagel Peanut Butter to go,1
+Bagel plain here,32
+Bagel plain to go,38
+Bagel Roma oder Florenz here,262
+Bagel Roma oder Florenz to go,61
+Bagel Stulle Deluxe here,74
+Bagel Stulle Deluxe to go,22
+Bagel Vital here,1
+Brezel Butter here,26
+Brezel Butter to go,3
+Brezel plain here,61
+Brezel plain to go,24
+Cafe Creme groﬂ  here,129
+Cafe Creme groﬂ  to go,107
+Cafe Creme klein  here,324
+Cafe Creme klein  to go,170
+Caffe Latte mit Sirup here,67
+Caffe Latte mit Sirup to go,52
+Caffe Latte ohne Sirup here,413
+Caffe Latte ohne Sirup to go,297
+Cappuccino groﬂ  here,283
+Cappuccino groﬂ  to go,189
+Cappuccino klein  here,471
+Cappuccino klein  to go,149
+Chai Tea groﬂ Chai Banana here,18
+Chai Tea groﬂ Chai Banana to go,10
+Chai Tea groﬂ Chai Tea Latte here,123
+Chai Tea groﬂ Chai Tea Latte to go,64
+Chai Tea klein Chai Banana here,2
+Chai Tea klein Chai Tea Latte here,88
+Chai Tea klein Chai Tea Latte to go,34
+Chocolate groﬂ Bio-Kakao here,4
+Chocolate groﬂ Bio-Kakao to go,2
+Chocolate groﬂ black here,74
+Chocolate groﬂ black to go,39
+Chocolate groﬂ white bring in,1
+Chocolate groﬂ white here,32
+Chocolate groﬂ white to go,8
+Chocolate klein Bio-Kakao here,8
+Chocolate klein Bio-Kakao to go,3
+Chocolate klein black here,94
+Chocolate klein black to go,28
+Chocolate klein white here,29
+Chocolate klein white to go,14
+Cookie here,156
+Cookie to go,134
+Cool Latte Iced Caffe here,63
+Cool Latte Iced Caffe to go,70
+Cool Latte Iced Espresso here,25
+Cool Latte Iced Espresso to go,18
+Cool Latte Iced Macchiato here,172
+Cool Latte Iced Macchiato to go,119
+Donut here,191
+Donut to go,85
+Eis here,9
+Eis to go,1
+Eiskaffee here,149
+Eiskaffee to go,62
+Eisschokolade here,139
+Eisschokolade to go,50
+Eistee here,82
+Eistee to go,17
+Espresso groﬂ Barista here,10
+Espresso groﬂ Barista to go,2
+Espresso groﬂ Cuba here,8
+Espresso groﬂ Cuba to go,2
+Espresso groﬂ Lungo here,2
+Espresso groﬂ Macchiato here,17
+Espresso groﬂ Macchiato to go,2
+Espresso groﬂ Originale here,56
+Espresso groﬂ Originale to go,25
+Espresso groﬂ Unplugged here,6
+Espresso groﬂ Unplugged to go,5
+Espresso klein Barista here,16
+Espresso klein Barista to go,1
+Espresso klein Cuba here,20
+Espresso klein Cuba to go,3
+Espresso klein Lungo here,3
+Espresso klein Lungo to go,1
+Espresso klein Macchiato here,52
+Espresso klein Macchiato to go,4
+Espresso klein Orange here,12
+Espresso klein Orange to go,1
+Espresso klein Originale here,140
+Espresso klein Originale to go,5
+Espresso klein Unplugged here,15
+Espresso klein Unplugged to go,1
+Espresso Latte here,94
+Espresso Latte to go,51
+Frappe black here,76
+Frappe black to go,63
+Frappe white here,40
+Frappe white to go,56
+Fruchtsaft frisch groﬂ  here,11
+Fruchtsaft frisch groﬂ  to go,1
+Fruchtsaft frisch klein  here,19
+Fruchtsaft frisch klein  to go,2
+Iced Chai Latte here,66
+Iced Chai Latte to go,50
+Iced Espresso here,3
+Iced Espresso to go,2
+Kaffee here,136
+Kaffee to go,19
+Kaffeeverkauf Espressobohnen groﬂ Espresso Barista here,1
+Kaffeeverkauf Espressobohnen groﬂ Espresso Barista to go,1
+Kaffeeverkauf Espressobohnen groﬂ Espresso Coffeinfrei to go,1
+Kaffeeverkauf Espressobohnen groﬂ Espresso Cuba to go,1
+Kaffeeverkauf Espressobohnen groﬂ Espresso Originale to go,1
+Kaffeeverkauf Espressobohnen groﬂ Unplugged to go,3
+Kaffeeverkauf Espressobohnen klein Espresso Barista here,3
+Kaffeeverkauf Espressobohnen klein Espresso Cuba to go,2
+Kaffeeverkauf Espressobohnen klein Espresso Originale here,2
+Kaffeeverkauf Espressobohnen klein Espresso Originale to go,3
+Kaffeeverkauf Espressobohnen klein Unplugged here,2
+Kaffeeverkauf Espressobohnen klein Unplugged to go,4
+Kaffeeverkauf Goldline Blue Mountain here,1
+Kaffeeverkauf Goldline Blue Mountain to go,2
+Kaffeeverkauf sortenrein groﬂ Kenya Arabica AA here,2
+Kaffeeverkauf sortenrein groﬂ Mexiko Organico here,1
+Kaffeeverkauf sortenrein groﬂ Mexiko Organico to go,1
+Kaffeeverkauf sortenrein klein ƒthiopischer Mocca here,2
+Kaffeeverkauf sortenrein klein ƒthiopischer Mocca to go,1
+Kaffeeverkauf sortenrein klein Costa Rica here,1
+Kaffeeverkauf sortenrein klein Costa Rica to go,1
+Kaffeeverkauf sortenrein klein Guatemala to go,1
+Kaffeeverkauf sortenrein klein India Malabar here,2
+Kaffeeverkauf sortenrein klein Java here,2
+Kaffeeverkauf sortenrein klein Java to go,2
+Kaffeeverkauf sortenrein klein Kenya Arabica AA here,2
+Kaffeeverkauf sortenrein klein Maragogype to go,2
+Kaffeeverkauf sortenrein klein Mexiko Organico to go,1
+Kaffegetr‰nk groﬂ Costa Rica here,2
+Kaffegetr‰nk groﬂ India Malabar here,2
+Kaffegetr‰nk groﬂ India Malabar to go,1
+Kaffegetr‰nk groﬂ Mexiko Organico here,7
+Kaffegetr‰nk groﬂ Mexiko Organico to go,1
+Kaffegetr‰nk klein Costa Rica here,1
+Kaffegetr‰nk klein Costa Rica to go,1
+Kaffegetr‰nk klein Kenya Arabica AA here,2
+Kaffegetr‰nk klein Mexiko Organico here,21
+Kaffegetr‰nk klein Peru here,2
+Kaffegetr‰nk klein Wiener Melange here,10
+Kaffespezialit‰t Blue Mountain here,1
+Kaffeverkauf Hausmischung groﬂ Cafe Creme here,1
+Kaffeverkauf Hausmischung groﬂ Cafe Creme to go,2
+Kaffeverkauf Hausmischung groﬂ Wiener Melange to go,1
+Kaffeverkauf Hausmischung klein Cafe Creme here,2
+Kaffeverkauf Hausmischung klein Cafe Creme to go,5
+Kaffeverkauf Hausmischung klein Wiener Melange to go,2
+Kaffezusatz Espresso Shot here,29
+Kaffezusatz Espresso Shot to go,24
+Kaffezusatz Flavour Shot here,76
+Kaffezusatz Flavour Shot to go,42
+Kaffezusatz Lac.-frei here,148
+Kaffezusatz Lac.-frei to go,79
+Kaffezusatz Sahne here,25
+Kaffezusatz Sahne to go,5
+Kaffezusatz Soja here,118
+Kaffezusatz Soja to go,49
+Kapuziner groﬂ  here,11
+Kapuziner groﬂ  to go,3
+Kapuziner klein  here,19
+Kapuziner klein  to go,4
+Kuchen here,154
+Kuchen to go,22
+Latte Macchiato mit Sirup here,315
+Latte Macchiato mit Sirup to go,224
+Latte Macchiato ohne Sirup here,803
+Latte Macchiato ohne Sirup to go,446
+Milk groﬂ  here,3
+Milk klein  here,6
+Milk klein  to go,2
+Mocca groﬂ black here,59
+Mocca groﬂ black to go,47
+Mocca groﬂ white here,67
+Mocca groﬂ white to go,54
+Mocca klein black bring in,1
+Mocca klein black here,46
+Mocca klein black to go,15
+Mocca klein white here,42
+Mocca klein white to go,31
+MoccaSin here,28
+MoccaSin to go,7
+Muffin bring in,1
+Muffin here,688
+Muffin to go,260
+M¸sli here,6
+M¸sli to go,3
+Nebenprodukte Just-T here,1
+Nebenprodukte Just-T to go,2
+Nebenprodukte Sirup groﬂ to go,7
+Preis here,108
+Preis to go,29
+Shake here,221
+Shake to go,137
+Smoothie BIO here,140
+Smoothie BIO to go,61
+Smoothie plain here,348
+Smoothie plain to go,266
+Softdrink Bionade here,87
+Softdrink Bionade to go,10
+Softdrink Bottle AFG here,123
+Softdrink Bottle AFG to go,30
+Softdrink Wasser bring in,1
+Softdrink Wasser here,112
+Softdrink Wasser to go,29
+Special Latte Chocolate Latte here,3
+Special Latte Chocolate Latte to go,1
+Special Latte Latte Caramel here,183
+Special Latte Latte Caramel to go,65
+Tea here,102
+Tea to go,13
+
+
+Produkte(Bonus):
+
+
+
+
+Mitarbeiterbuchungen:
+
+Fr¸h1,16151.60Ä,6547 bezahlte Buchungen,0 Bonusbuchungen
+Sp‰t1,16888.10Ä,6601 bezahlte Buchungen,0 Bonusbuchungen
+
+

@@ -1,0 +1,117 @@
+Tagesabschluss f¸r den 17.07.11
+
+
+Umsatz brutto: 626.90Ä
+Umsatz brutto 19%: 557.70Ä
+Umsatz brutto  7%: 69.20Ä
+Umsatz netto: 533.33Ä
+Umsatzsteuer: 93.57Ä
+Umsatzsteuer 19%: 89.03Ä
+Umsatzsteuer 7%: 4.53Ä
+
+
+Produkte(bezahlt):
+
+Bagel Cream Cheese here,1
+Bagel Fitness here,4
+Bagel Mexico here,4
+Bagel Morning Star here,1
+Bagel Peanut Butter here,1
+Bagel plain here,1
+Bagel Roma oder Florenz here,3
+Bagel Roma oder Florenz to go,2
+Bagel Stulle Deluxe here,1
+Bagel Stulle Deluxe to go,1
+Brezel plain here,3
+Brezel plain to go,1
+Cafe Creme groﬂ  here,2
+Cafe Creme klein  here,8
+Cafe Creme klein  to go,2
+Caffe Latte mit Sirup here,1
+Caffe Latte mit Sirup to go,1
+Caffe Latte ohne Sirup here,16
+Caffe Latte ohne Sirup to go,2
+Cappuccino groﬂ  here,7
+Cappuccino groﬂ  to go,5
+Cappuccino klein  here,8
+Cappuccino klein  to go,1
+Chai Tea groﬂ Chai Tea Latte here,1
+Chai Tea klein Chai Tea Latte here,3
+Chocolate groﬂ black here,2
+Chocolate groﬂ black to go,1
+Chocolate groﬂ white to go,2
+Chocolate klein black here,1
+Chocolate klein black to go,1
+Chocolate klein white to go,1
+Cookie here,3
+Cookie to go,1
+Cool Latte Iced Caffe here,1
+Cool Latte Iced Caffe to go,2
+Cool Latte Iced Macchiato here,1
+Donut here,5
+Eiskaffee here,2
+Eisschokolade here,2
+Espresso groﬂ Barista here,1
+Espresso groﬂ Macchiato here,2
+Espresso klein Originale here,4
+Espresso Latte here,4
+Espresso Latte to go,1
+Frappe black here,2
+Fruchtsaft frisch groﬂ  here,1
+Kaffee here,4
+Kaffegetr‰nk groﬂ ƒthiopischer Mocca here,1
+Kaffegetr‰nk groﬂ Mexiko Organico here,1
+Kaffeverkauf Hausmischung klein Wiener Melange to go,2
+Kaffezusatz Sahne here,3
+Kuchen here,25
+Kuchen to go,1
+Latte Macchiato mit Sirup here,9
+Latte Macchiato mit Sirup to go,2
+Latte Macchiato ohne Sirup here,23
+Latte Macchiato ohne Sirup to go,3
+Mocca groﬂ black here,6
+Mocca groﬂ white here,4
+Mocca klein black here,1
+Mocca klein black to go,2
+Mocca klein white here,3
+Muffin here,24
+Muffin to go,15
+Preis here,2
+Shake here,1
+Smoothie plain here,1
+Softdrink Bionade here,2
+Softdrink Bottle AFG here,7
+Softdrink Wasser here,3
+Softdrink Wasser to go,2
+Special Latte Latte Caramel here,2
+Tea here,4
+
+
+Produkte(Bonus):
+
+Cafe Creme klein  here,1
+Caffe Latte mit Sirup here,1
+Caffe Latte mit Sirup to go,1
+Caffe Latte ohne Sirup here,1
+Cappuccino groﬂ  here,1
+Chocolate klein black here,1
+Eistee here,1
+Kaffee here,1
+Latte Macchiato ohne Sirup here,1
+
+
+Mitarbeiterbuchungen:
+
+Fr¸h1,626.90Ä,273 bezahlte Buchungen,9 Bonusbuchungen
+
+
+Stornierungen:
+
+
+
+
+Fehlbuchungen:
+
+
+
+

@@ -1,0 +1,10 @@
+Bagel plain,69,Bagel plain
+Bagel Cream Cheese,76,Bagel Cream Cheese
+Bagel Peanut Butter,9,Bagel Peanut Butter
+Bagel Morning Star,17,Bagel Morning Star
+Bagel Bavaria,0,Bagel Bavaria
+Bagel Green Garden,43,Bagel Green Garden
+Bagel Roma,296,Bagel Roma
+Bagel Stulle Deluxe,116,Bagel Stulle Deluxe
+Bagel Fitness,128,Bagel Fitness
+Bagel Bohemian,0,Bagel Bohemian
