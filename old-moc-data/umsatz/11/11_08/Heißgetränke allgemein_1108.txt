@@ -1,5 +1,0 @@
-Kaffee,4584,Cafe Creme klein,Cafe Creme groß,Caffe Latte,Cappucino,Espresso,Kaffee,Kapuziner,Latte Macchiato,Mocca
-Schokolade,203,Chocolate
-Milch,4,MIlk
-Tee,323,Tea
-Kaffe Sorten,34,Wiener Melange,Guatemala,Peru,Mexiko Organico,Java,Kenya Arabica AA,Äthiopischer Mocca,India Malabar,Maragogype

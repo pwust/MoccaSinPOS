@@ -1,3 +1,0 @@
-Toast Italy,0,Toast Italy
-Toast KA,0,Toast KA
-Toast Fitness,0,Toast Fitness

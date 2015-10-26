@@ -1,3 +1,0 @@
-mit Sirup,500,mit Sirup
-Flavour Shot,123,Flavour Shot
-ohne Sirup,1677,ohne Sirup

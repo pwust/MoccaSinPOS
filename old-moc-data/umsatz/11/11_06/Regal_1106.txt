@@ -1,3 +1,0 @@
-Kaffeeverkauf,44,Kaffeeverkauf
-Nebenprodukte,4,Nebenprodukte Ghirardelli Chocolate,Nebenprodukte Just-T,Nebenprodukte Sirup,Nebenprodukte Buch,Nebenprodukte Geschenkset,Nebenprodukte Kaffeekerze,Nebenprodukte Eierlikör,Nebenprodukte Cremecafe,Nebenprodukte Cap tea,Nebenprodukte Coffee Bag,Nebenprodukte Kaffee Schuss
-Merchandising,0,Merchandising Cap,Merchandising T-Shirt,Merchandising Espresso+UTeller,Merchandising Cappucino+UTeller,Merchandising Kaffee.groß+UTeller,Merchandising Kaffee.klein+UTeller,Merchandising Teller,Merchandising Unterteller.groß,Merchandising Unterteller.klein
