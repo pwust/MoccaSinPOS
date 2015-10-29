@@ -15,6 +15,7 @@ def ask_date():
     # todone part 2: ask for date ...done
     previousday = time.localtime(time.time() - 86400)
     previousmonth = time.localtime(time.mktime(previousday) - 86400 * 28)
+    print()
     if previousmonth[1] != previousday[1]:
         left = calendar.month(previousmonth[0], previousmonth[1], 3).split('\n')
         right = calendar.month(previousday[0], previousday[1], 3).split('\n')
@@ -23,9 +24,10 @@ def ask_date():
     else:
         calendar.prmonth(previousday[0], previousday[1], 3)
     print('Gestern war der %s.' % (time.strftime('%d.%m.%Y (%A)', previousday)))
+    print()
     print('Für welchen Tag soll der Kassenabschluss nachgeholt oder erneut erstellt werden?')
 
-    print('Jahr [%s]: ' % previousday[0], end='')
+    print('\tJahr       [%s]: ' % previousday[0], end='')
     try:
         myyear=int(input(''))
         # only use the last two digits of the year entry:
@@ -37,7 +39,7 @@ def ask_date():
         # make sure that year is not in the future
         myyear=previousday[0]
 
-    print('Monat (1-12) [%s]: ' % previousday[1], end='')
+    print('\tMonat (1-12) [%s]: ' % previousday[1], end='')
     try:
         mymonth=int(input(''))
         # only use the last two digits of the month entry:
@@ -49,7 +51,7 @@ def ask_date():
         # make sure that month is not beyond December
         myyear=previousday[1]
 
-    print('Tag (1-31) [%s]: ' % previousday[2], end='')
+    print('\tTag   (1-31) [%s]: ' % previousday[2], end='')
     try:
         myday=int(input(''))
     except:
@@ -64,7 +66,7 @@ def ask_date():
         # in the future, so reset to previous day:
         myyear, mymonth, myday = previousday[0], previousday[1], previousday[2]
     # final date to be selected:
-    print('Es wird der %s.%s.%s ausgewertet.' % (myday, mymonth, myyear))
+    print('--> Es wird der %s.%s.%s ausgewertet.' % (myday, mymonth, myyear))
 
     return time.strptime(str(myday) + '.' + str(mymonth) + '.' + str(myyear), '%d.%m.%Y')
 
@@ -199,14 +201,18 @@ def show_closingsummary(file_with_path, spaces=0):
 
         print(' ' * spaces, end='')
         print('%s Buchungen, %s Positionen, Bruttobetrag %.2f' % (number_receipts, number_orderlines, sum_gross_sales))
-        print(' ' * spaces, end='')
-        print('erste Buchung:  %02d.%02d.%4d, %02d:%02d:%02d' %(receipt_mintime[2], receipt_mintime[1],
-                                                                receipt_mintime[0], receipt_mintime[3],
-                                                                receipt_mintime[4], receipt_mintime[5]))
-        print(' ' * spaces, end='')
-        print('letzte Buchung: %02d.%02d.%4d, %02d:%02d:%02d' %(receipt_maxtime[2], receipt_maxtime[1],
-                                                                receipt_maxtime[0], receipt_maxtime[3],
-                                                                receipt_maxtime[4], receipt_maxtime[5]))
+        if receipt_mintime != None:
+            print(' ' * spaces, end='')
+            print('erste Buchung:  %02d.%02d.%4d, %02d:%02d:%02d' %(receipt_mintime[2], receipt_mintime[1],
+                                                                    receipt_mintime[0], receipt_mintime[3],
+                                                                    receipt_mintime[4], receipt_mintime[5]))
+            print(' ' * spaces, end='')
+            print('letzte Buchung: %02d.%02d.%4d, %02d:%02d:%02d' %(receipt_maxtime[2], receipt_maxtime[1],
+                                                                    receipt_maxtime[0], receipt_maxtime[3],
+                                                                    receipt_maxtime[4], receipt_maxtime[5]))
+        else:
+            print(' ' * spaces, end='')
+            print('??? EIN LEERER KASSENABSCHLUSS ???')
 
 
 def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
@@ -255,7 +261,8 @@ def main():
     :return:
     '''
     locale.setlocale(locale.LC_TIME, 'german')
-    myconf=read_inifile('c:\\private\\moc\\rit\\kasse', 'Kasse-python.ini')
+    # myconf=read_inifile('c:\\private\\moc\\rit\\kasse', 'Kasse-python.ini')
+    myconf=read_inifile('.', 'Kasse.ini')
     mybookdir1 = os.path.normpath(myconf['temp1'])
     mybookdir2 = os.path.normpath(myconf['temp2'])
     # print(mybookdir1)
@@ -269,10 +276,12 @@ def main():
 
     if os.path.isfile(os.path.join(mybookdir1, myclosingfile)):
         # closing file exists, so show details and ask how to proceed
+        print()
         print('Die Datei %s ist schon da:' % myclosingfile)
         show_closingsummary(os.path.join(mybookdir1, myclosingfile), 4)
 
         # todone part 5: ask for overwriting
+        print()
         myanswer = input('Möchten Sie den bestehenden Kassenabschluss überschreiben (j/n)? ').strip().lower()
         #print('>%s<' % tempinput)
         if  myanswer[:1] == 'j':
