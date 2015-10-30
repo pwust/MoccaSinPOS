@@ -3,7 +3,7 @@ __author__ = 'pwust'
 # Package old-moc-tools
 # Version 
 
-import sys, os, glob, calendar, time, locale, re, shutil
+import os, glob, calendar, time, locale, re, shutil
 
 def ask_date():
     '''
@@ -235,8 +235,18 @@ def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
 
     mypattern = '???????????????_' + yy + mm + dd + '??????.mcb'
 
+    # Progress bar:
+    print('In Arbeit: ', end='')
+    myprogresscolumn = 11
+
     with open(os.path.join(mybookdir1, myclosingfilename), 'wt') as outfile:
         for receipt in glob.glob(os.path.join(mybookdir1, mypattern)):
+            # print progress to console
+            print('.', end='')
+            myprogresscolumn += 1
+            if myprogresscolumn > 80:
+                print()
+                myprogresscolumn = 0
             # print header
             outfile.write('MOCCASIN-BUCHUNG,')
             # print filename into header
@@ -245,6 +255,9 @@ def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
             with open(receipt, 'rt') as receipthandle:
                 receiptcontents = receipthandle.read()
             outfile.write(receiptcontents + '\n')
+
+    # progress bar finish
+    print('!')
 
     # now copy the finished file to mybookingdir2:
     shutil.copy(os.path.join(mybookdir1, myclosingfilename),
