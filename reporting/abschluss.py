@@ -230,14 +230,16 @@ def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
     '''
     # tododone part 7: create new closing file from bookings
     # tododone part 8: save new closing to defined directories
+
+    # Progress bar:
+    print('In Arbeit: ', end='')
+    myprogresscolumn = 11
+
     myclosingfilename = create_filename(closingdate)
     (yy, mm, dd) = convert_to_date_tuple(closingdate)
 
     mypattern = '???????????????_' + yy + mm + dd + '??????.mcb'
 
-    # Progress bar:
-    print('In Arbeit: ', end='')
-    myprogresscolumn = 11
 
     with open(os.path.join(mybookdir1, myclosingfilename), 'wt') as outfile:
         for receipt in glob.glob(os.path.join(mybookdir1, mypattern)):
@@ -319,9 +321,9 @@ def main():
 
     compose_new_dayclosing(mydate, mybookdir1, mybookdir2)
 
-
-
-
+    print('...fertig.')
+    print('Daten des neu erstellen Kassenabschlusses:')
+    show_closingsummary(os.path.join(mybookdir1, myclosingfile), 4)
 
 
 if __name__ == '__main__':
