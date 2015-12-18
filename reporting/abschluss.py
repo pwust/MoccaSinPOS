@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 __author__ = 'pwust'
-# Package old-moc-tools
+# Module reporting
 # Version 
+# (c) by Patric Wust (patric.wust@gmx.de) 10/2015
 
 import os, glob, calendar, time, locale, re, shutil
 
@@ -230,7 +231,7 @@ def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
     '''
     # tododone part 7: create new closing file from bookings
     # tododone part 8: save new closing to defined directories
-
+    # todo With Moc outlet at Durlach, some closing files did not work at 10/2015 after having them created with this tool. This needs deep troubleshooting.
     # Progress bar:
     print('In Arbeit: ', end='')
     myprogresscolumn = 11

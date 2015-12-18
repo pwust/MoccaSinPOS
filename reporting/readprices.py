@@ -91,6 +91,7 @@ class Prices():
         # global product_names
         # global product_labels
 
+        print(productsfilename + ':')
         with open(productsfilename, 'r') as file:
             for line in file:
                 line = line.rstrip("\r\n\t ")
@@ -133,6 +134,7 @@ class Prices():
         price_lines_count = 0
         double_lines_count = 0
 
+        print(exceptionsfilename + ':')
         with open(exceptionsfilename, 'r') as file:
             for line in file:
                 line = line.rstrip("\r\n\t ")
@@ -162,8 +164,10 @@ class Prices():
 
 def main():
     alles = Prices()
-    alles.ReadProductsFromFile(os.path.abspath(os.path.join('..', 'old-moc-data', 'umsatz', 'product.ini')),
-                                os.path.abspath(os.path.join('..', 'old-moc-data', 'umsatz', 'ausnahme.ini')))
+    # alles.ReadProductsFromFile(os.path.abspath(os.path.join('..', 'old-moc-data', 'umsatz', 'product.ini')),
+    #                             os.path.abspath(os.path.join('..', 'old-moc-data', 'umsatz', 'ausnahme.ini')))
+    alles.ReadProductsFromFile(os.path.abspath(os.path.join('c:\\', 'private', 'moc', 'dur', 'umsatz', 'product.ini')),
+                                os.path.abspath(os.path.join('c:\\', 'private', 'moc', 'dur', 'umsatz', 'ausnahme.ini')))
     #print(Prices.product_prices)
 
 
