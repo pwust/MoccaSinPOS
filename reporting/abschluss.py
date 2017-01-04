@@ -7,12 +7,12 @@ __author__ = 'pwust'
 import os, glob, calendar, time, locale, re, shutil
 
 def ask_date():
-    '''
+    """
     Will offer a printout of a monthly calendar covering the
     last 4 weeks, where this can be covering 1 or 2 months.
     Will then ask the user to supply a valid date.
     :return: the chosen date as struct_time
-    '''
+    """
     # todone part 2: ask for date ...done
     previousday = time.localtime(time.time() - 86400)
     previousmonth = time.localtime(time.mktime(previousday) - 86400 * 28)
@@ -73,7 +73,7 @@ def ask_date():
 
 
 def read_inifile(mypath=os.path.curdir, myfile='kasse.ini'):
-    '''
+    """
     Will read from a MoccaSin INI file, and returns the settings as
     dictionary.
     The file shall contain comma-seperated lines of key and value,
@@ -84,7 +84,7 @@ def read_inifile(mypath=os.path.curdir, myfile='kasse.ini'):
     :param mypath: path to the INI file (defaults to current script dir)
     :param myfile: name of INI file (defaults to 'kasse.ini')
     :return: a dictionary with all settings from the file
-    '''
+    """
     # todone part 1: read settings ...done
     myconfig={}
     with open(os.path.join(mypath, myfile), 'r') as configfile:
@@ -98,7 +98,7 @@ def read_inifile(mypath=os.path.curdir, myfile='kasse.ini'):
 
 
 def create_filename(date):
-    '''
+    """
     Check in bookings main directory, if the closing file of the
     requested date already exists.
     The file name patter for the closing file is 'k_13_10_04.mka',
@@ -107,7 +107,7 @@ def create_filename(date):
                  the configured temp1 of kasse.ini settings)
     :param date: date as struct_time requested
     :return: boolean True if the file is already there, False if not.
-    '''
+    """
     # todone part 3: check for existing closing ...done
     (yy, mm, dd) = convert_to_date_tuple(date)
 
@@ -117,13 +117,13 @@ def create_filename(date):
 
 
 def convert_to_date_tuple(date):
-    '''
+    """
     Converts a given struct_time to three two-letter strings,
     representing day, month, and year with two digits each.
     :param date: struct_time
     :return: (yy,mm,dd): a tuple of three 2-digit strings
     for year, month, and day
-    '''
+    """
     yy = str(date[0])[-2:]
     mm = str(date[1]).zfill(2)
     dd = str(date[2]).zfill(2)
@@ -131,7 +131,7 @@ def convert_to_date_tuple(date):
 
 
 def show_closingsummary(file_with_path, spaces=0):
-    '''
+    """
     Show details about an existing POS closing file ('k_##_##_##.mka'):
      - number of receipts,
      - date and time of first and last receipt,
@@ -141,7 +141,7 @@ def show_closingsummary(file_with_path, spaces=0):
     :param file_with_path: the full path and file name of the file
     :param tabs: if existing: shift output by # spaces
     :return: boolean if the file was in fact a closing file and could be examined
-    '''
+    """
     # todone part 4: show details from existing
     number_receipts = 0
     number_lines = 0
@@ -217,7 +217,7 @@ def show_closingsummary(file_with_path, spaces=0):
 
 
 def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
-    '''
+    """
     Create a new POS closing file for a given date in givien directories.
     The closing file must not exist, so take care to remove old versions first!
     The booking files that will be used need to live in mybookdir1, with the name pattern:
@@ -228,7 +228,7 @@ def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
     :param mybookdir1: main directory where all booking files exist, and where closing will be saved to
     :param mybookdir2: backup directory where closing file will be copied to
     :return:
-    '''
+    """
     # tododone part 7: create new closing file from bookings
     # tododone part 8: save new closing to defined directories
     # todo With Moc outlet at Durlach, some closing files did not work at 10/2015 after having them created with this tool. This needs deep troubleshooting.
@@ -268,14 +268,14 @@ def compose_new_dayclosing(closingdate, mybookdir1, mybookdir2):
 
 
 def main():
-    '''
+    """
     Recreate a day's closing file from POS module (KASSE),
     either because someone forgot to create it in time within
     POS module, or it needs to be recreated anyway.
     The user will be asked for a date. An existing closing will
     be shown with the option to recreate anyway.
     :return:
-    '''
+    """
     locale.setlocale(locale.LC_TIME, 'german')
     # myconf=read_inifile('c:\\private\\moc\\rit\\kasse', 'Kasse-python.ini')
     myconf=read_inifile('.', 'Kasse.ini')

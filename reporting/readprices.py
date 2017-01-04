@@ -2,16 +2,18 @@
 __author__ = 'Patric Wust'
 # Package 
 # Version
-'''
+"""
 Module: readprices
 Load price data from MoccaSin's old price
-'''
+and verify its correctness, respectively
+show parts that need reworking.
+"""
 
 import os, re
 
 
 class Prices():
-    '''
+    """
         Aufbau product.ini und ausnahme.ini
         Comme seprated values
         Kommentarzeilen:
@@ -52,7 +54,7 @@ class Prices():
         1. "PREIS"
         2. Artikelnummer 1##2##3##4##
         3. Preis angabe (Dezimaltrenner = Punkt)
-        '''
+        """
     ConfigPath = os.path.join('.', 'old-moc-data', 'umsatz')
 
     products_filename=os.path.join(ConfigPath, 'product.ini')
@@ -74,12 +76,12 @@ class Prices():
 
 
     def ReadProductsFromFile(self, productsfilename='product.ini', exceptionsfilename='ausnahme.ini'):
-        '''
+        """
         Liest die Liste aller Produkte aus den beiden Produkt-Dateien (normalerweise "product.ini" und "ausnahme.ini"
         :param productsfilename: default = 'product.ini'
         :param exceptionsfilename: default = 'ausnahme.ini'
         :return:
-        '''
+        """
         all_lines_count = 0
         good_lines_count = 0
         price_lines_count = 0
