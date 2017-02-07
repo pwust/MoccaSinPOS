@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/learning" />
       <excludeFolder url="file://$MODULE_DIR$/old-moc-data/umsatz/11" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.4.3 (C:\Python34\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6.0 (C:\Python36-32\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="kapitel2" />
   </component>

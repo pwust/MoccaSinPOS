@@ -4,7 +4,14 @@ __author__ = 'pwust'
 # Version 
 # (c) by Patric Wust (patric.wust@gmx.de) 10/2015
 
-import os, glob, calendar, time, locale, re, shutil
+import os
+import glob
+import calendar
+import time
+import locale
+import re
+import shutil
+
 
 def ask_date():
     """

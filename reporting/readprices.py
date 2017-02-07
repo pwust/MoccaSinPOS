@@ -9,7 +9,8 @@ and verify its correctness, respectively
 show parts that need reworking.
 """
 
-import os, re
+import os
+import re
 
 
 class Prices():
