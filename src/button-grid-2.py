@@ -13,11 +13,33 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger('button-grid')
 
 
+class App(tk.Tk):
+    def __init__(self, parent=None):
+        tk.Tk.__init__(self, parent)
+        self.rows = 12
+        self.cols = 10
+        self.init_app()
+        logger = logging.getLogger('button-app')
+
+    def init_app(self):
+        for x in range(self.cols):
+            for y in range(self.rows):
+                cmd = lambda x=x, y=y: self.button_callback(x, y)
+                b = tk.Button(self, text='{}/{}'.format(x, y), command=cmd)
+                b.grid(row=y, column=x)
+                if (x == (self.cols - 1)) and (y == (self.rows - 1)):
+                    b.configure(text='Exit')
+
+    def button_callback(self, x, y):
+        logger.debug('button {}/{} pressed.'.format(x, y))
+
+
+
 def clicked(x, y):
     logger.debug('clicked on button {}/{}'.format(x, y))
-
-
-
+    if (x == (col_count - 1)) and (y == (row_count - 1)):
+        logger.info('exiting.')
+        root.destroy()
 
 
 # Create & Configure root
@@ -28,8 +50,8 @@ screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
 logger.debug('screen size = %sx%s' % (screen_width, screen_height))
 
-window_width = 1 * screen_width // 4    # 3/4 of the screen size used
-window_height = 1 * screen_height // 4  # 3/4 of the screen size used
+window_width = 7 * screen_width // 8    # 3/4 of the screen size used
+window_height = 7 * screen_height // 8  # 3/4 of the screen size used
 logger.debug('window size = %sx%s' % (window_width, window_height))
 
 offest_x = (screen_width - window_width) // 2  # centered
@@ -78,8 +100,11 @@ for row_index in range(row_count):
             btn.grid(row=row_index, column=col_index, sticky=tk.N+tk.S+tk.E+tk.W)
             btn.config(text="({}/{})".format(col_index, row_index))
             btn.config(width=col_width, height=row_height)
-            btn.config(command=lambda: clicked(col_index, row_index))
+            btn.config(command=lambda y=row_index, x=col_index: clicked(x, y))
+            if (row_index == (row_count - 1)) and (col_index == (col_count - 1)):
+                btn.config(text='EXIT')
 
 
 root.mainloop()
 
+App().mainloop()
