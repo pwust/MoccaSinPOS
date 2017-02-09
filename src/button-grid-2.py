@@ -13,13 +13,15 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger('button-grid')
 
 
-class App(tk.Tk):
-    def __init__(self, parent=None):
+class CashPointTester(tk.Tk):
+
+    logger = logging.getLogger('button-app')
+
+    def __init__(self, parent=None, rows=12, cols=10):
         tk.Tk.__init__(self, parent)
-        self.rows = 12
-        self.cols = 10
+        self.rows = rows
+        self.cols = cols
         self.init_app()
-        logger = logging.getLogger('button-app')
 
     def init_app(self):
         for x in range(self.cols):
@@ -33,6 +35,26 @@ class App(tk.Tk):
     def button_callback(self, x, y):
         logger.debug('button {}/{} pressed.'.format(x, y))
 
+
+class CashPoint(tk.Tk):
+
+    def __init__(self, parent=None, rows=12, cols=10):
+        tk.Tk.__init__(self, parent)
+        self.rows = rows
+        self.cols = cols
+        self.init_app()
+
+    def init_app(self):
+        for x in range(self.cols):
+            for y in range(self.rows):
+                cmd = lambda x=x, y=y: self.button_callback(x, y)
+                b = tk.Button(self, text='{}/{}'.format(x, y), command=cmd)
+                b.grid(row=y, column=x)
+                if (x == (self.cols - 1)) and (y == (self.rows - 1)):
+                    b.configure(text='Exit')
+
+    def button_callback(self, x, y):
+        logger.debug('button {}/{} pressed.'.format(x, y))
 
 
 def clicked(x, y):
@@ -105,6 +127,11 @@ for row_index in range(row_count):
                 btn.config(text='EXIT')
 
 
-root.mainloop()
 
-App().mainloop()
+def main():
+    root.mainloop()
+    CashPointTester().mainloop()
+
+
+if __name__ == '__main__':
+    main()
