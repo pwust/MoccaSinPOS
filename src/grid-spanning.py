@@ -38,13 +38,12 @@ class CashPointTester(tk.Tk):
 
 class CashPoint(tk.Tk):
 
-    def __init__(self, parent=None, rows=12, cols=10, numerator=3, denominator=4, center=True):
+    def __init__(self, parent=None, rows=12, cols=10, numerator=3, denominator=4):
         tk.Tk.__init__(self, parent)
         self.rows = rows
         self.cols = cols
         self.numerator = numerator
         self.denominator = denominator
-        self.center = center
         self.init_app()
 
     def init_app(self):
@@ -57,13 +56,8 @@ class CashPoint(tk.Tk):
         window_height = self.numerator * screen_height // self.denominator  # 3/4 of the screen size used
         logger.debug('window size = %sx%s' % (window_width, window_height))
 
-        logger.debug('Center is set to {}'.format(self.center))
-
-        if self.center:
-            offset_x = (screen_width - window_width) // 2  # centered
-            offset_y = (screen_height - window_height) // 2  # centered
-        else:
-            offset_x = offset_y = 0
+        offset_x = (screen_width - window_width) // 2  # centered
+        offset_y = (screen_height - window_height) // 2  # centered
         logger.debug('offset      = %sx%s' % (offset_x, offset_y))
 
         col_width = window_width // self.cols
@@ -97,6 +91,7 @@ class CashPoint(tk.Tk):
             tk.Grid.columnconfigure(frame, col_index, weight=1)
             for row_index in range(self.rows):
                 tk.Grid.rowconfigure(frame, row_index, weight=1)
+                # Exceptions where not to put a Button:
                 if ((row_index != 3) and (row_index != 2)) or \
                         (((row_index == 3) or (row_index == 2)) and ((col_index == 0) or (col_index == self.cols - 1))):
                     cmd = lambda x=col_index, y=row_index: self.button_callback(x, y)
@@ -107,10 +102,15 @@ class CashPoint(tk.Tk):
                     btn.grid(row=row_index, column=col_index, sticky=tk.N + tk.S + tk.E + tk.W)
                     if (row_index == (self.rows - 1)) and (col_index == (self.cols - 1)):
                         btn.config(text='EXIT')
-
+                lbl = tk.Label(frame, text='I am a label text...')
+                lbl.configure(anchor=tk.W)
+                lbl.configure(background='white')
+                lbl.configure(font=("Arial Narrow", 20))
+                # lbl.configure(bg=tk.WHITE)
+                lbl.grid(row=2, column=1, columnspan=8, rowspan=2, sticky=tk.N + tk.S + tk.E + tk.W)
 
     def button_callback(self, x, y):
-        logger.debug('button {:2}/{:2} pressed.'.format(x, y))
+        logger.debug('button {}/{} pressed.'.format(x, y))
         if (x == (self.cols - 1)) and (y == (self.rows - 1)):
             logger.info('Pressed "EXIT" -> exiting.')
             self.destroy()
@@ -119,7 +119,7 @@ class CashPoint(tk.Tk):
 def main():
     # root.mainloop()
     # CashPointTester().mainloop()
-    CashPoint(numerator=1, denominator=6, center=False).mainloop()
+    CashPoint().mainloop()
 
 if __name__ == '__main__':
     main()
