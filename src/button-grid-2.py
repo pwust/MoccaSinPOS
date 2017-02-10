@@ -1,6 +1,5 @@
 # coding=utf-8
 import tkinter as tk
-import tkinter.ttk as ttk
 import logging
 """
 http://stackoverflow.com/questions/7591294/how-to-create-a-self-resizing-grid-of-buttons-in-tkinter
@@ -33,7 +32,7 @@ class CashPointTester(tk.Tk):
                     b.configure(text='Exit')
 
     def button_callback(self, x, y):
-        logger.debug('button {}/{} pressed.'.format(x, y))
+        logger.debug('button {:2}/{:2} pressed.'.format(x, y))
 
 
 class CashPoint(tk.Tk):
@@ -97,6 +96,7 @@ class CashPoint(tk.Tk):
             tk.Grid.columnconfigure(frame, col_index, weight=1)
             for row_index in range(self.rows):
                 tk.Grid.rowconfigure(frame, row_index, weight=1)
+                # Exceptions where not to put a Button:
                 if ((row_index != 3) and (row_index != 2)) or \
                         (((row_index == 3) or (row_index == 2)) and ((col_index == 0) or (col_index == self.cols - 1))):
                     cmd = lambda x=col_index, y=row_index: self.button_callback(x, y)

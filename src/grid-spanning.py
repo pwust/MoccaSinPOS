@@ -1,6 +1,5 @@
 # coding=utf-8
 import tkinter as tk
-import tkinter.ttk as ttk
 import logging
 """
 http://stackoverflow.com/questions/7591294/how-to-create-a-self-resizing-grid-of-buttons-in-tkinter
@@ -33,17 +32,18 @@ class CashPointTester(tk.Tk):
                     b.configure(text='Exit')
 
     def button_callback(self, x, y):
-        logger.debug('button {}/{} pressed.'.format(x, y))
+        logger.debug('button {:2}/{:2} pressed.'.format(x, y))
 
 
 class CashPoint(tk.Tk):
 
-    def __init__(self, parent=None, rows=12, cols=10, numerator=3, denominator=4):
+    def __init__(self, parent=None, rows=12, cols=10, numerator=3, denominator=4, center=True):
         tk.Tk.__init__(self, parent)
         self.rows = rows
         self.cols = cols
         self.numerator = numerator
         self.denominator = denominator
+        self.center = center
         self.init_app()
 
     def init_app(self):
@@ -56,8 +56,13 @@ class CashPoint(tk.Tk):
         window_height = self.numerator * screen_height // self.denominator  # 3/4 of the screen size used
         logger.debug('window size = %sx%s' % (window_width, window_height))
 
-        offset_x = (screen_width - window_width) // 2  # centered
-        offset_y = (screen_height - window_height) // 2  # centered
+        logger.debug('Center is set to {}'.format(self.center))
+
+        if self.center:
+            offset_x = (screen_width - window_width) // 2  # centered
+            offset_y = (screen_height - window_height) // 2  # centered
+        else:
+            offset_x = offset_y = 0
         logger.debug('offset      = %sx%s' % (offset_x, offset_y))
 
         col_width = window_width // self.cols
@@ -110,7 +115,7 @@ class CashPoint(tk.Tk):
                 lbl.grid(row=2, column=1, columnspan=8, rowspan=2, sticky=tk.N + tk.S + tk.E + tk.W)
 
     def button_callback(self, x, y):
-        logger.debug('button {}/{} pressed.'.format(x, y))
+        logger.debug('button {:2}/{:2} pressed.'.format(x, y))
         if (x == (self.cols - 1)) and (y == (self.rows - 1)):
             logger.info('Pressed "EXIT" -> exiting.')
             self.destroy()
@@ -119,7 +124,7 @@ class CashPoint(tk.Tk):
 def main():
     # root.mainloop()
     # CashPointTester().mainloop()
-    CashPoint().mainloop()
+    CashPoint(numerator=1, denominator=2, center=False).mainloop()
 
 if __name__ == '__main__':
     main()
