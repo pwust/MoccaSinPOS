@@ -35,7 +35,7 @@ class CashPointTester(tk.Tk):
         logger.debug('button {:2}/{:2} pressed.'.format(x, y))
 
 
-class CashPoint(tk.Tk):
+class CashPointGridTest1(tk.Tk):
 
     def __init__(self, parent=None, rows=12, cols=10, numerator=3, denominator=4, center=True):
         tk.Tk.__init__(self, parent)
@@ -52,11 +52,12 @@ class CashPoint(tk.Tk):
         screen_height = self.winfo_screenheight()
         logger.debug('screen size = %sx%s' % (screen_width, screen_height))
 
+        logger.debug('factor for window size used: {}/{}, centering = {}'
+                     .format(self.numerator, self.denominator, self.center))
+
         window_width = self.numerator * screen_width // self.denominator  # 3/4 of the screen size used
         window_height = self.numerator * screen_height // self.denominator  # 3/4 of the screen size used
         logger.debug('window size = %sx%s' % (window_width, window_height))
-
-        logger.debug('Center is set to {}'.format(self.center))
 
         if self.center:
             offset_x = (screen_width - window_width) // 2  # centered
@@ -80,9 +81,13 @@ class CashPoint(tk.Tk):
         # set window to a fixed size:
         self.minsize(width=window_width, height=window_height)
         self.maxsize(width=window_width, height=window_height)
+        self.resizable(False, False)
 
         # make window borderless:
-        self.overrideredirect(1)
+        # self.overrideredirect(1)
+
+        # set background to dark green:
+        self.tk_setPalette('')
 
         tk.Grid.rowconfigure(self, 0, weight=1)
         tk.Grid.columnconfigure(self, 0, weight=1)
@@ -107,10 +112,10 @@ class CashPoint(tk.Tk):
                     btn.grid(row=row_index, column=col_index, sticky=tk.N + tk.S + tk.E + tk.W)
                     if (row_index == (self.rows - 1)) and (col_index == (self.cols - 1)):
                         btn.config(text='EXIT')
-                lbl = tk.Label(frame, text='I am a label text...')
+                lbl = tk.Label(frame, text='I am a label text, and I wonder how long I can get...')
                 lbl.configure(anchor=tk.W)
                 lbl.configure(background='white')
-                lbl.configure(font=("Arial Narrow", 20))
+                lbl.configure(font=('Helvetica', 20, 'bold'))
                 # lbl.configure(bg=tk.WHITE)
                 lbl.grid(row=2, column=1, columnspan=8, rowspan=2, sticky=tk.N + tk.S + tk.E + tk.W)
 
@@ -124,7 +129,8 @@ class CashPoint(tk.Tk):
 def main():
     # root.mainloop()
     # CashPointTester().mainloop()
-    CashPoint(numerator=1, denominator=2, center=False).mainloop()
+    CashPointGridTest1(numerator=1, denominator=2, center=False).mainloop()
+    # CashPointGridTest2(numerator=2, denominator=3, center=True).mainloop()
 
 if __name__ == '__main__':
     main()
