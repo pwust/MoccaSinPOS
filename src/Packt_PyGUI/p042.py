@@ -17,7 +17,7 @@ tabControl.pack(expand=1, fill="both")
 
 monty = ttk.LabelFrame(tab1, text=' Monty Python ')
 monty.grid(column=0, row=0, padx=8, pady=4)
-ttk.Label(monty, text="Enter a name:").grid(column=0, row=0, sticky=tk.W)
+ttk.Label(monty, text="Enter a name:").grid(column=0, row=0, sticky=tk.W    )
 
 
 win.mainloop()
