@@ -1,9 +1,4 @@
-'''
-Created on Jun 7, 2015
-Recipe:  B04829_02_05
-@author: Burkhard
-'''
-# ======================
+# coding=utf-8
 # imports
 # ======================
 import tkinter as tk
@@ -25,6 +20,38 @@ monty.grid(column=0, row=0, padx=8, pady=4)
 # Modified Button Click Function
 def clickMe():
     action.configure(text='Hello ' + name.get())
+
+
+# Menu command for exit
+def _quit():
+    print('Exiting via Menu...')
+    win.quit()
+    win.destroy()
+    exit()
+
+
+# GUI Callback function
+def checkCallback(*ignoredArgs):
+    # only enable one checkbutton
+    if chVarUn.get():
+        check3.configure(state='disabled')
+    else:
+        check3.configure(state='normal')
+    if chVarEn.get():
+        check2.configure(state='disabled')
+    else:
+        check2.configure(state='normal')
+
+
+# Radiobutton callback function
+def radCall():
+    radSel = radVar.get()
+    if radSel == 0:
+        win.configure(background=colors[0])
+    elif radSel == 1:
+        win.configure(background=colors[1])
+    elif radSel == 2:
+        win.configure(background=colors[2])
 
 
 # Changing our Label
@@ -63,19 +90,6 @@ check3.deselect()
 check3.grid(column=2, row=4, sticky=tk.W, columnspan=3)
 
 
-# GUI Callback function
-def checkCallback(*ignoredArgs):
-    # only enable one checkbutton
-    if chVarUn.get():
-        check3.configure(state='disabled')
-    else:
-        check3.configure(state='normal')
-    if chVarEn.get():
-        check2.configure(state='disabled')
-    else:
-        check2.configure(state='normal')
-
-
 # trace the state of the two checkbuttons
 chVarUn.trace('w', lambda unused0, unused1, unused2: checkCallback())
 chVarEn.trace('w', lambda unused0, unused1, unused2: checkCallback())
@@ -88,17 +102,6 @@ scr = scrolledtext.ScrolledText(monty, width=scrolW, height=scrolH, wrap=tk.WORD
 
 # Radiobutton list
 colors = ["Blue", "Gold", "Red"]
-
-
-# Radiobutton callback function
-def radCall():
-    radSel = radVar.get()
-    if radSel == 0:
-        win.configure(background=colors[0])
-    elif radSel == 1:
-        win.configure(background=colors[1])
-    elif radSel == 2:
-        win.configure(background=colors[2])
 
 
 radVar = tk.IntVar()
@@ -130,9 +133,18 @@ menuBar = Menu(win)
 win.config(menu=menuBar)
 
 # Add menu items
-fileMenu = Menu(menuBar)
+fileMenu = Menu(menuBar, tearoff=0)
 fileMenu.add_command(label="New")
+fileMenu.add_separator()
+fileMenu.add_command(label="Exit", command=_quit)
 menuBar.add_cascade(label="File", menu=fileMenu)
+
+helpMenu = Menu(menuBar, tearoff=0)
+helpMenu.add_command(label="About")
+menuBar.add_cascade(label="Help", menu=helpMenu)
+
+
+
 
 
 # Place cursor into name Entry

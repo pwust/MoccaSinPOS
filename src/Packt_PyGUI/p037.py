@@ -1,9 +1,4 @@
-'''
-Created on Jun 7, 2015
-Recipe:  B04829_02_05
-@author: Burkhard
-'''
-# ======================
+# coding=utf-8
 # imports
 # ======================
 import tkinter as tk
@@ -130,8 +125,10 @@ menuBar = Menu(win)
 win.config(menu=menuBar)
 
 # Add menu items
-fileMenu = Menu(menuBar)
+fileMenu = Menu(menuBar, tearoff=0)
 fileMenu.add_command(label="New")
+fileMenu.add_separator()
+fileMenu.add_command(label="Exit")
 menuBar.add_cascade(label="File", menu=fileMenu)
 
 
