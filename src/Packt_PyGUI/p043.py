@@ -12,6 +12,39 @@ from tkinter import scrolledtext
 from tkinter import Menu
 from tkinter import Spinbox
 
+
+# Exit GUI cleanly
+def _quit():
+    win.quit()
+    win.destroy()
+    exit()
+
+
+# Modified Button Click Function
+def clickMe():
+    action.configure(text='Hello ' + name.get())
+
+
+# Spinbox callback
+def _spin():
+    value = spin.get()
+    print(value)
+    scr.insert(tk.INSERT, value + '\n')
+
+
+# GUI Callback function
+def checkCallback(*ignoredArgs):
+    #     only enable one checkbutton
+    if chVarUn.get():
+        check3.configure(state='disabled')
+    else:
+        check3.configure(state='normal')
+    if chVarEn.get():
+        check2.configure(state='disabled')
+    else:
+        check2.configure(state='normal')
+
+
 # Create instance
 win = tk.Tk()
 
@@ -35,11 +68,6 @@ monty = ttk.LabelFrame(tab1, text=' Monty Python ')
 monty.grid(column=0, row=0, padx=8, pady=4)
 
 
-# Modified Button Click Function
-def clickMe():
-    action.configure(text='Hello ' + name.get())
-
-
 # Changing our Label
 ttk.Label(monty, text="Enter a name:").grid(column=0, row=0, sticky='W')
 
@@ -58,13 +86,6 @@ numberChosen = ttk.Combobox(monty, width=12, textvariable=number)
 numberChosen['values'] = (1, 2, 4, 42, 100)
 numberChosen.grid(column=1, row=1)
 numberChosen.current(0)
-
-
-# Spinbox callback
-def _spin():
-    value = spin.get()
-    print(value)
-    scr.insert(tk.INSERT, value + '\n')
 
 
 # Adding a Spinbox widget using a set of values
@@ -111,17 +132,6 @@ check3.deselect()
 check3.grid(column=2, row=0, sticky=tk.W)
 
 
-# GUI Callback function
-def checkCallback(*ignoredArgs):
-    #     only enable one checkbutton
-    if chVarUn.get():
-        check3.configure(state='disabled')
-    else:
-        check3.configure(state='normal')
-    if chVarEn.get():
-        check2.configure(state='disabled')
-    else:
-        check2.configure(state='normal')
 
 
 # trace the state of the two checkbuttons
@@ -166,13 +176,6 @@ ttk.Label(labelsFrame, text="Label2").grid(column=0, row=1)
 # Add some space around each label
 for child in labelsFrame.winfo_children():
     child.grid_configure(padx=8)
-
-
-# Exit GUI cleanly
-def _quit():
-    win.quit()
-    win.destroy()
-    exit()
 
 
 # Creating a Menu Bar
