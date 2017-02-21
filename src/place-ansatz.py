@@ -7,7 +7,7 @@ GREEN = '#0f0'
 BLUE = '#00f'
 RED = '#f00'
 WHITE = '#fff'
-BLACK = '#f00'
+BLACK = '#000'
 
 
 """
@@ -163,6 +163,7 @@ class CashPointGridTest2(tk.Tk):
         self.center = center
         self.init_app()
 
+
     def init_app(self):
         # determine screen size
         screen_width = self.winfo_screenwidth()
@@ -187,13 +188,13 @@ class CashPointGridTest2(tk.Tk):
         row_height = window_height // self.rows
         logger.debug('button size = %sx%s' % (col_width, row_height))
 
-        # self.geometry(newGeometry='{}x{}+{}+{}'.format(window_width, window_height, offest_x, offset_y))
+        self.geometry(newGeometry='{}x{}+{}+{}'.format(window_width, window_height, offset_x, offset_y))
 
         # move window to center of available screen
 #        self.geometry(newGeometry='{}x{}+{}+{}'.format(window_width, window_height, offset_x, offset_y))
 
-        # self.minsize(width=window_width//2, height=window_height//2)
-        # self.maxsize(width=screen_width, height=screen_height)
+        self.minsize(width=window_width, height=window_height)
+        self.maxsize(width=screen_width, height=screen_height)
 
         # set window to a fixed size:
 #        self.minsize(width=window_width, height=window_height)
@@ -212,6 +213,16 @@ class CashPointGridTest2(tk.Tk):
         # gui_style.configure('My.TFrame.green', background=GREEN)
         # gui_style.configure('My.TFrame.red', background=RED)
         gui_style.configure('My.TFrame', background=GLOBAL_BG)
+        gui_style.configure('Userinfo.TLabel', foreground=WHITE, background=BLACK, font='Arial')
+        # gui_style.configure()
+        # gui_style.configure('TButton', font='Courier New')
+        gui_style.configure('TLabelframe', background=GLOBAL_BG)
+        logger.debug('Style for TLabelframe -> font: {}'.format(ttk.Style().lookup("TLabelframe", "font")))
+        logger.debug('Style for TButton -> width: {}'.format(ttk.Style().lookup("TButton", "width")))
+
+        # logger.debug('Themes available: {}'.format(gui_style.theme_names()))
+        # logger.debug('Elements available: {}'.format(gui_style.element_names()))
+
 
         # set background to dark green:
         self.tk_setPalette(GLOBAL_BG)
@@ -231,7 +242,8 @@ class CashPointGridTest2(tk.Tk):
 
         frm_display = ttk.LabelFrame(frm_app, text=' Top Area ')
         frm_display.grid(column=0, row=0, columnspan=3, sticky=tk.E + tk.W)
-        ttk.Button(frm_display, text='tmpBtn').grid(column=0, row=0)
+        logger.debug('frm_display is of class {}'.format(frm_display.winfo_class()))
+        ttk.Button(frm_display, text='EXIT', command=self.clicked_exit).grid(column=0, row=0)
 
         frm_1st_buttons = ttk.LabelFrame(frm_app, text=' Level 1 ')
         frm_1st_buttons.grid(column=0, row=1, rowspan=2, sticky=tk.N + tk.S)
@@ -251,7 +263,7 @@ class CashPointGridTest2(tk.Tk):
         ttk.Label(frm_user_display, text='Angemeldeter Bediener:').grid(column=0, row=0, sticky=tk.W+tk.E)
         lbl_active_user = ttk.Label(frm_user_display, text='BEDIENER ???')
         lbl_active_user.grid(column=0, row=1, sticky=tk.W+tk.E)
-        lbl_active_user.configure()
+        lbl_active_user.configure(style='Userinfo.TLabel')
 
 
 
@@ -288,6 +300,7 @@ class CashPointGridTest2(tk.Tk):
         #         lbl.configure(font=('Helvetica', 20, 'bold'))
         #         lbl.grid(row=2, column=1, columnspan=8, rowspan=2, sticky=tk.N + tk.S + tk.E + tk.W)
 
+
     def button_callback(self, x, y):
         logger.debug('button {:2}/{:2} pressed.'.format(x, y))
         if (x == (self.cols - 1)) and (y == (self.rows - 1)):
@@ -306,10 +319,11 @@ class CashPointGridTest2(tk.Tk):
         self.destroy()
 
 
+
 def main():
     # CashPointTester().mainloop()
     # CashPointGridTest1(numerator=1, denominator=2, center=False).mainloop()
-    CashPointGridTest2(numerator=1, denominator=4, center=True, rows=5, cols=5).mainloop()
+    CashPointGridTest2(numerator=2, denominator=3, center=True, rows=5, cols=5).mainloop()
 
 if __name__ == '__main__':
     main()

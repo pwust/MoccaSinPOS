@@ -80,8 +80,8 @@ class CashPointGridTest1(tk.Tk):
 
         # set window to a fixed size:
         self.minsize(width=window_width, height=window_height)
-        self.maxsize(width=window_width, height=window_height)
-        self.resizable(False, False)
+        # self.maxsize(width=window_width, height=window_height)
+        # self.resizable(False, False)
 
         # make window borderless:
         # self.overrideredirect(1)
