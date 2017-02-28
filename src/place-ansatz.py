@@ -33,8 +33,24 @@ class CashPointTest(tk.Tk):
         self.numerator = numerator
         self.denominator = denominator
         self.center = center
+        self.window_width = 0
+        self.window_height = 0
+        self.btn_width = 0
+        self.btn_height = 0
+        self.btn_1st_grid_width = 0
+        self.btn_1st_grid_height = 0
+        self.btn_2nd_grid_width = 0
+        self.btn_2nd_grid_height = 0
+        self.btn_3rd_grid_width = 0
+        self.btn_3rd_grid_height = 0
+        self.userinfo_grid_width = 0
+        self.userinfo_grid_height = 0
+        self.current_item_grid_width = 0
+        self.current_item_grid_height = 0
+        self.top_area_width = 0
+        self.top_area_height = 0
+        self.recalc_sizes()
         self.init_app()
-
 
     def init_app(self):
         # determine screen size
@@ -88,6 +104,7 @@ class CashPointTest(tk.Tk):
         # gui_style.configure()
         # gui_style.configure('TButton', font='Courier New')
         gui_style.configure('TLabelframe', background=GLOBAL_BG)
+        gui_style.configure('TFrame', background=GLOBAL_BG)
         # logger.debug('Style for TLabelframe -> font: {}'.format(ttk.Style().lookup("TLabelframe", "font")))
         # logger.debug('Style for TButton -> width: {}'.format(ttk.Style().lookup("TButton", "width")))
 
@@ -106,28 +123,28 @@ class CashPointTest(tk.Tk):
         # putting lableframes for POS GUI:
         frm_app.grid(row=0, column=0, sticky='nesw')
         # frm_app.grid_propagate(0)
-        logger.debug('frm_app: {}'.format(frm_app.grid_info()))
+        # logger.debug('frm_app: {}'.format(frm_app.grid_info()))
 
         # TOP AREA: Logo, Menu Button, Receipt Display,
 
         frm_display = ttk.LabelFrame(frm_app, text=' Top Area ')
         frm_display.grid(column=0, row=0, columnspan=3, rowspan=1, sticky='ew')
         # frm_display.grid_propagate(0)
-        logger.debug('frm_display: {}'.format(frm_display.grid_info()))
+        # logger.debug('frm_display: {}'.format(frm_display.grid_info()))
 
         logger.debug('frm_display is of class {}'.format(frm_display.winfo_class()))
         ttk.Button(frm_display, text='EXIT', command=self.clicked_exit).grid(column=0, row=0)
 
         frm_1st_buttons = ttk.LabelFrame(frm_app, text=' Level 1 ')
         frm_1st_buttons.grid(column=0, row=1, rowspan=2, sticky='ns')
-        logger.debug('frm_1st_buttons: {}'.format(frm_1st_buttons.grid_info()))
+        # logger.debug('frm_1st_buttons: {}'.format(frm_1st_buttons.grid_info()))
         for x in range(6):
             for y in range(8):
                 ttk.Button(frm_1st_buttons, text="{}/{}".format(x, y)).grid(column=x, row=y)
 
         frm_2nd_buttons = ttk.LabelFrame(frm_app, text=' Level 2 ')
         frm_2nd_buttons.grid(column=1, row=1)
-        logger.debug('frm_2nd_buttons: {}'.format(frm_2nd_buttons.grid_info()))
+        # logger.debug('frm_2nd_buttons: {}'.format(frm_2nd_buttons.grid_info()))
         for x in range(3):
             for y in range(7):
                 ttk.Button(frm_2nd_buttons, text="{}/{}".format(x, y)).grid(column=x, row=y)
@@ -135,7 +152,7 @@ class CashPointTest(tk.Tk):
         frm_user_display = ttk.LabelFrame(frm_app, text=' User Info ')
         frm_user_display.grid(column=1, row=2, sticky='ew')
         # frm_user_display.grid_propagate(0)
-        logger.debug('frm_user_display: {}'.format(frm_user_display.grid_info()))
+        # logger.debug('frm_user_display: {}'.format(frm_user_display.grid_info()))
         # ttk.Button(frm_user_display, text='tmpBtn').grid(column=0, row=0)
         ttk.Label(frm_user_display, text='Angemeldeter Bediener:').grid(column=0, row=0, sticky='ew')
         lbl_active_user = ttk.Label(frm_user_display, text='BEDIENER - ??')
@@ -144,7 +161,7 @@ class CashPointTest(tk.Tk):
 
         frm_3rd_buttons = ttk.LabelFrame(frm_app, text=' Level 3 ')
         frm_3rd_buttons.grid(column=2, row=1, rowspan=2, sticky='ns')
-        logger.debug('frm_3rd_buttons: {}'.format(frm_3rd_buttons.grid_info()))
+        # logger.debug('frm_3rd_buttons: {}'.format(frm_3rd_buttons.grid_info()))
         ttk.Button(frm_3rd_buttons, text='tmpBtn').grid(column=0, row=0, columnspan=2)
 
 
@@ -174,7 +191,6 @@ class CashPointTest(tk.Tk):
         #         lbl.configure(font=('Helvetica', 20, 'bold'))
         #         lbl.grid(row=2, column=1, columnspan=8, rowspan=2, sticky=tk.N + tk.S + tk.E + tk.W)
 
-
     def button_callback(self, x, y):
         logger.debug('button {:2}/{:2} pressed.'.format(x, y))
         if (x == (self.cols - 1)) and (y == (self.rows - 1)):
@@ -184,14 +200,37 @@ class CashPointTest(tk.Tk):
     def recalc_sizes(self):
         """
         recalculate button sizes and all frame sizes after a resizing has happened
+        global layout figures:
+        - total window width = 100%
+        - each button width in 9 columns = 9% (81% total width)
+        - rightmost column = 19%, button width = 13%, right justified
+        - total height = 100% (560px)
+        - button area height = 72% (410px)
+        - each button height = 9%
+        - current item line = 7%
+        - top are with receipt, logo, etc = 19% (113px)
         :return:
         """
-        pass
+        self.window_width = self.winfo_screenmmwidth()
+        self.window_height = self.winfo_screenheight()
+        self.btn_width = .09 * self.window_width
+        self.btn_height = .09 * self.window_height
+        self.btn_1st_grid_width = 6 * self.btn_width
+        self.btn_1st_grid_height = 8 * self.btn_height
+        self.btn_2nd_grid_width = 3 * self.btn_width
+        self.btn_2nd_grid_height = 7 * self.btn_height
+        self.btn_3rd_grid_width = self.window_width - self.btn_1st_grid_width - self.btn_2nd_grid_width
+        self.btn_3rd_grid_height = self.btn_1st_grid_height
+        self.userinfo_grid_width = self.btn_2nd_grid_width
+        self.userinfo_grid_height = 1 * self.btn_height
+        self.current_item_grid_width = self.window_width
+        self.current_item_grid_height = 0.07 * self.window_height
+        self.top_area_width = self.window_width
+        self.top_area_height = self.window_height - self.current_item_grid_height - self.btn_1st_grid_height
 
     def clicked_exit(self):
         logger.debug('clicked_exit()')
         self.destroy()
-
 
 
 def main():

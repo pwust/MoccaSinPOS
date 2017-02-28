@@ -11,6 +11,7 @@ logging.basicConfig(level=logging.DEBUG,
 
 logger = logging.getLogger('button-grid')
 
+logger.debug('Script started.')
 
 class CashPointTester(tk.Tk):
 
@@ -69,6 +70,7 @@ class CashPointGridTest1(tk.Tk):
         col_width = window_width // self.cols
         row_height = window_height // self.rows
         logger.debug('button size = %sx%s' % (col_width, row_height))
+        logger.debug('button size measured = %sx%s ?????' % (191, 87))
 
         # self.geometry(newGeometry='{}x{}+{}+{}'.format(window_width, window_height, offest_x, offset_y))
 
@@ -80,7 +82,7 @@ class CashPointGridTest1(tk.Tk):
 
         # set window to a fixed size:
         self.minsize(width=window_width, height=window_height)
-        # self.maxsize(width=window_width, height=window_height)
+        self.maxsize(width=window_width, height=window_height)
         # self.resizable(False, False)
 
         # make window borderless:
@@ -109,17 +111,17 @@ class CashPointGridTest1(tk.Tk):
                     btn = tk.Button(frame, )
                     btn.configure(text='{}/{}'.format(col_index, row_index))
                     btn.configure(command=cmd)
-                    btn.configure(background='#333')
+                    # btn.configure(background='#333')
                     btn.configure(width=col_width, height=row_height)
-                    btn.grid(row=row_index, column=col_index, sticky=tk.N + tk.S + tk.E + tk.W)
+                    btn.grid(row=row_index, column=col_index, sticky='nsew')
                     if (row_index == (self.rows - 1)) and (col_index == (self.cols - 1)):
                         btn.config(text='EXIT')
                 lbl = tk.Label(frame, text='I am a label text, and I wonder how long I can get...')
                 # lbl = tk.Message(frame, text='I am a label text, and I wonder how long I can get...')
                 lbl.configure(anchor=tk.W)
-                lbl.configure(background='white')
+                lbl.configure(background='red')
                 lbl.configure(font=('Helvetica', 20, 'bold'))
-                lbl.grid(row=2, column=1, columnspan=8, rowspan=2, sticky=tk.N + tk.S + tk.E + tk.W)
+                lbl.grid(row=2, column=1, columnspan=8, rowspan=2, sticky='nsew')
 
     def button_callback(self, x, y):
         logger.debug('button {:2}/{:2} pressed.'.format(x, y))
