@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import logging
-import tkinter
+import tkinter as tk
 
 __project__ = '${PROJECT_NAME}'
 __author__ = '${USER}'

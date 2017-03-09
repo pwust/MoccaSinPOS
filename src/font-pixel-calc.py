@@ -41,6 +41,7 @@ def main():
             canvas.create_text(x, y, text='{} ({}pt)'.format(my_actual_text, my_size), font=my_font, anchor='nw')
             logger.debug('size = {}pt, height = {}px, width of "{}" = {}px'.format(my_size, my_height, my_actual_text, my_width))
             y += my_height + 5
+            logger.debug('y = {}, window height = {}'.format(y, canvas.winfo_height()))
 
     tk.mainloop()
 
