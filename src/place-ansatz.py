@@ -41,6 +41,7 @@ class CashPointTest(tk.Tk):
         self.fnt_lucida_c_20_b = tkfont.Font(family='Lucida Console', size=20, weight='bold')
         self.fnt_lucida_c_12_b = tkfont.Font(family='Lucida Console', size=12, weight='bold')
         self.fnt_lucida_c_def = tkfont.Font(family='Lucida Console')
+        self.fnt_width = 85  # number of characters in window
         # class internal variables:
         self.window_width = 0
         self.window_height = 0
@@ -192,6 +193,7 @@ class CashPointTest(tk.Tk):
         # lbl_current_item.configure(font=self.fnt_courier_24_b)
         # lbl_current_item.configure(font=self.fnt_lucida_c_20_b)
         lbl_current_item.configure(font=self.fnt_lucida_c_def)
+        logger.debug(self.fnt_lucida_c_def.actual())
 
         # todo 1ST BUTTON AREA
         frm_1st_buttons = ttk.Frame(frm_app)  # , text=' Level 1 ')
@@ -252,10 +254,17 @@ class CashPointTest(tk.Tk):
 
     def button1_callback(self, x, y):
         logger.debug('button L1/{:2}/{:2} pressed.'.format(x, y))
-        self.my_current_item['text'].set('{} L{}:{}/{}'.format(self.my_current_item['text'].get(), 1, x, y ))
+        text_content = '{} L{}:{}/{}'.format(self.my_current_item['text'].get(), 1, x, y )
+        logger.debug('"' + text_content + '"')
+        # text_format = '{:<' + str(self.fnt_width) + '}'
+        self.my_current_item['text'].set(text_content[-self.fnt_width:])
 
     def button2_callback(self, x, y):
         logger.debug('button L2/{:2}/{:2} pressed.'.format(x, y))
+        text_content = '{} L{}:{}/{}'.format(self.my_current_item['text'].get(), 2, x, y )
+        logger.debug('"' + text_content + '"')
+        # text_format = '{:<' + str(self.fnt_width) + '}'
+        self.my_current_item['text'].set(text_content[-self.fnt_width:])
 
     def recalc_sizes(self):
         """
